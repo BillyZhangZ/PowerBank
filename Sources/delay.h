@@ -8,7 +8,7 @@
 #ifndef DELAY_H_
 #define DELAY_H_
 #include<stdint.h>
-#include"MKL16Z4.h"
+#include"MKL26Z4.h"
 
 #define LOOP_CNT_1MS_24MHZ 2600
 #define LOOP_CNT_1MS_48MHZ LOOP_CNT_1MS_24MHZ*2

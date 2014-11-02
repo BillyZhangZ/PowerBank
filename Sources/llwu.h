@@ -8,7 +8,7 @@
 #ifndef LLWU_H_
 #define LLWU_H_
 #include<stdint.h>
-#include"MKL16Z4.h"
+#include"MKL26Z4.h"
 
 #if 0
 #define USB_HOST_PLUGIN 0x01

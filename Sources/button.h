@@ -9,7 +9,7 @@
 #define BUTTON_H_
 
 #include<stdint.h>
-#include"MKL16Z4.h"
+#include"MKL26Z4.h"
 void button_init();
 void button_deinit();
 uint8_t button_get_value();

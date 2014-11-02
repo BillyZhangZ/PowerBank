@@ -8,7 +8,7 @@
 #ifndef PLATFORM_H_
 #define PLATFORM_H_
 #include<stdint.h>
-#include"MKL16Z4.h"
+#include"MKL26Z4.h"
 
 #define ADC_BATT_CHN 8
 #define ADC_CURR_CHN 9
@@ -20,7 +20,7 @@
 #define NO_LOAD_VALUE 50
 
 enum system_state{IDLE,CHARGING,BOOSTING,CHARGE_BOOST};
-enum system_event{NONE,SWITCH_PRESSED,LOW_POWER_TIMER,CHARGER_PLUGIN,DEVICE_PLUGIN};
+enum system_event{NONE,SWITCH_PRESSED,LOW_POWER_TIMER,CHARGER_PLUGIN,CHARGER_PLUGOUT,DEVICE_PLUGIN};
 
 void start_boost();
 uint8_t get_battery_level();

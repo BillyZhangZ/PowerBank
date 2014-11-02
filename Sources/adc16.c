@@ -135,7 +135,9 @@ uint16_t adc_read(uint8_t channel)
 
 uint16_t adc_multi_read(uint8_t channel, uint16_t times)
 {
+	#if 0
 		unsigned int sample_cnt = times, sample_value =0;
+
 		while(sample_cnt--)
 		{
 			sample_value += adc_read(channel);
@@ -144,6 +146,13 @@ uint16_t adc_multi_read(uint8_t channel, uint16_t times)
 		
 		sample_value = sample_value / times;
 		return (uint16_t)sample_value;
+#else
+		uint16_t sample_value = adc_read(channel);
+		 
+		update_value_history(channel, sample_value);
+		return get_value_history(channel);		 
+#endif
+		
 }
 /**   adc0_isr,
  * \brief    reads the results of the Adc conversion

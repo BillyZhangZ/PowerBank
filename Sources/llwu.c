@@ -32,7 +32,7 @@ void llwu_init(void)
 	         | (uint8_t)(LLWU_ME_WUME0_MASK)
 			);
  
-	  /*charger plugin*/
+	  /*charger plug in-out*/
 	  LLWU_PE4 = (uint8_t)((LLWU_PE4 & (uint8_t)~(uint8_t)(
 			  LLWU_PE4_WUPE12_MASK |
 			  LLWU_PE4_WUPE13_MASK |
@@ -88,7 +88,16 @@ void LLW_IRQHandler()
 	{
 		 
 		LLWU_F2 |= LLWU_F2_WUF14_MASK;
-		gevent = CHARGER_PLUGIN;
+		if(GPIOD_PDIR & GPIO_PDIR_PDI(1<<4))
+		{
+			/*Plug out*/
+			gevent = CHARGER_PLUGOUT;
+		}
+		else
+		{
+			gevent = CHARGER_PLUGIN;
+		}
+		
 		return;
 	}	
 }

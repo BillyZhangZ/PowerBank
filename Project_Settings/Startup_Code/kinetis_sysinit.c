@@ -40,9 +40,11 @@ void Default_Handler()
 void __init_hardware()
 {
 	SCB_VTOR = (uint32_t)__vector_table; /* Set the interrupt vector table position */
-	
+	 
+#if 0
 	// Disable the Watchdog because it may reset the core before entering main().
 	SIM_COPC = KINETIS_WDOG_DISABLED_CTRL;
+#endif
 }
 
 /* Weak definitions of handlers point to Default_Handler if not implemented */
@@ -138,3 +140,47 @@ void (* const InterruptVector[])() __attribute__ ((section(".vectortable"))) = {
     PORTA_IRQHandler, /* Port A interrupt */
     PORTCD_IRQHandler /* Single interrupt vector for Port C and Port D interrupt */
 };
+
+/* Flash configuration field */
+#if defined(__GNUC__)
+__attribute__ ((section (".cfmconfig"))) const uint8_t _cfm[0x10] = {
+#elif defined(__ICCARM__)
+
+__root  const uint8_t _cfm[0x10] @ "FlashConfig" = {
+#elif defined(__CC_ARM)
+		 const uint8_t _cfm[0x10] __attribute__ ((at(0x400))) = {
+#else
+#error not supported 
+#endif
+   /* NV_BACKKEY3: KEY=0xFF */
+    0xFFU,
+   /* NV_BACKKEY2: KEY=0xFF */
+    0xFFU,
+   /* NV_BACKKEY1: KEY=0xFF */
+    0xFFU,
+   /* NV_BACKKEY0: KEY=0xFF */
+    0xFFU,
+   /* NV_BACKKEY7: KEY=0xFF */
+    0xFFU,
+   /* NV_BACKKEY6: KEY=0xFF */
+    0xFFU,
+   /* NV_BACKKEY5: KEY=0xFF */
+    0xFFU,
+   /* NV_BACKKEY4: KEY=0xFF */
+    0xFFU,
+   /* NV_FPROT3: PROT=0xFF */
+    0xFFU,
+   /* NV_FPROT2: PROT=0xFF */
+    0xFFU,
+   /* NV_FPROT1: PROT=0xFF */
+    0xFFU,
+   /* NV_FPROT0: PROT=0xFF */
+    0xFFU,
+   /* NV_FSEC: KEYEN=1,MEEN=3,FSLACC=3,SEC=2 */
+    0x7EU,
+   /* NV_FOPT: ??=1,??=1,FAST_INIT=1,LPBOOT1=1,RESET_PIN_CFG=1,NMI_DIS=0,??=1,LPBOOT0=1 */
+    0xFBU,
+    0xFFU,
+    0xFFU
+  };
+

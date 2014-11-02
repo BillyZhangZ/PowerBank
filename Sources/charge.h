@@ -8,7 +8,7 @@
 #ifndef CHARGE_H_
 #define CHARGE_H_
 #include<stdint.h>
-#include"MKL16Z4.h"
+#include"MKL26Z4.h"
 
 void charge_pin_init();
 

@@ -4,7 +4,7 @@
 #ifndef __ADC16_H__
 #define __ADC16_H__ 1
 #include<stdint.h>
-#include"MKL16Z4.h"
+#include"MKL26Z4.h"
 #include"delay.h"
 // Bit shifting of bitfiled is already taken into account so 
 // bitfiled values are always represented as relative to their position.
