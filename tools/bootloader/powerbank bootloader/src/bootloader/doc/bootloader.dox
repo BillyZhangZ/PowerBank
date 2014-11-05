@@ -1,0 +1,58 @@
+/*!
+
+@defgroup bootloader Bootloader
+@brief Bootloader components.
+
+@defgroup bl_core Bootloader Core
+@ingroup bootloader
+@brief Core bootloader functionality.
+
+@defgroup bl_peripherals Peripheral Definitions
+@ingroup bootloader
+@brief Peripheral interfaces.
+
+@defgroup bl_command Command Handler
+@ingroup bootloader
+@brief API for the command handler.
+
+@defgroup bl_peripheral Peripheral Interface
+@ingroup bootloader
+@brief API for peripheral interfaces.
+
+@defgroup bl_context Context
+@ingroup bootloader
+@brief Bootloader context and API structures.
+
+@defgroup bl_flashloader Flashloader
+@ingroup bootloader
+@brief Flashloader support.
+
+@defgroup dspi_peripheral DSPI Peripheral
+@ingroup bl_peripherals
+@brief DSPI peripheral interface.
+
+@defgroup i2c_peripheral I2C Peripheral
+@ingroup bl_peripherals
+@brief I2C peripheral interface.
+
+@defgroup scuart_peripheral SCIUART Peripheral
+@ingroup bl_peripherals
+@brief SCIUART peripheral interface.
+
+@defgroup uart_peripheral UART Peripheral
+@ingroup bl_peripherals
+@brief UART peripheral interface.
+
+@defgroup uart0_peripheral UART0 Peripheral
+@ingroup bl_peripherals
+@brief UART0 peripheral interface.
+
+@defgroup spi_peripheral SPI Peripheral
+@ingroup bl_peripherals
+@brief SPI peripheral interface.
+
+@defgroup usb_hid_peripheral USB HID Peripheral
+@ingroup bl_peripherals
+@brief USB HID peripheral interface.
+
+ */

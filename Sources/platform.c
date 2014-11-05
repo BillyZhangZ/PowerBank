@@ -12,7 +12,7 @@
 #include"watchdog.h"
 void do_nothing(const char * _EWL_RESTRICT format, ...)
 {
-	delay_busy(10);
+	//delay_busy(10);
 }
 //#define DEBUG
 #ifdef DEBUG
@@ -414,17 +414,19 @@ uint8_t device_plug_out()
 }
 void power_bank_state_machine(void)
 {
-	watchdog_init();
+	//watchdog_init();
 	 
 	debug_printf(("go into idle\n"));
 	for(;;){
 		/*Sleep and wait for events: buttons, plug-ins, low power timer,state updated in their ISR*/
 		/*this time must less than watch dog timeout, 1024ms*/
+		
+
 		lptimer_init(500);
 		
 		enter_lls();
-		 
-		watchdog_reset(); 
+
+	//	watchdog_reset(); 
 		 
 		//debug_printf(("state %d\n", gcur_state));
 		switch(gcur_state)
@@ -434,8 +436,10 @@ void power_bank_state_machine(void)
 			if(gevent == LOW_POWER_TIMER)
 			{
 				//debug_printf(("%d second\n", i++));
-#if 0
+#if 1
 				led_toggle(1);
+				 
+				 
 #else
 				led_off(1);
 #endif
@@ -445,6 +449,23 @@ void power_bank_state_machine(void)
 			}
 			else if(gevent == SWITCH_PRESSED)
 			{
+				if(power_check()) start_boost();
+				else
+				{
+					//blink and then sleep
+					led_on(1);
+					delay_busy(50);
+					led_toggle(1);
+					delay_busy(1000);
+					led_toggle(1);
+					delay_busy(50);
+					led_toggle(1);
+					delay_busy(1000);
+					led_toggle(1);
+					delay_busy(50);
+					led_toggle(1);
+					break;
+				}
 				//indicate power 
 				disp_batt_level_switch();
 			}

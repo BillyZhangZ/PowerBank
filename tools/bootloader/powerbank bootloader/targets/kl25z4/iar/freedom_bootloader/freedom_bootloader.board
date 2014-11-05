@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<flash_board>
+  <pass>
+    <loader>$PROJ_DIR$\freedom_bootloader.board</loader>
+    <range>CODE 0x0 0x1ffff</range>
+  </pass>
+</flash_board>
+
+

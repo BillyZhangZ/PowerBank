@@ -1,0 +1,15 @@
+/*!
+
+@defgroup usb_msd_peripheral USB MSD Peripheral
+@ingroup bl_peripherals
+@brief USB mass storage peripheral.
+
+@defgroup usb_msd_disk USB MSD Disk
+@ingroup usb_msd_peripheral
+@brief USB mass storage disk contents.
+
+@defgroup fat_dir_entry FAT Directory Entries
+@ingroup usb_msd_peripheral
+@brief FAT filesystem types.
+
+ */

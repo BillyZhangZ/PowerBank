@@ -1,0 +1,7 @@
+/*!
+
+@defgroup memif Memory Interface
+@ingroup bootloader
+@brief Abstract memory interface.
+
+ */

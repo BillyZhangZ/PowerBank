@@ -1,0 +1,27 @@
+"./Project_Settings/Startup_Code/kinetis_sysinit.o"
+"./Project_Settings/Startup_Code/__arm_start.o"
+"./Project_Settings/Startup_Code/__arm_end.o"
+"./Sources/watchdog.o"
+"./Sources/sa_mtb.o"
+"./Sources/platform.o"
+"./Sources/main.o"
+"./Sources/lptimer.o"
+"./Sources/llwu.o"
+"./Sources/led.o"
+"./Sources/delay.o"
+"./Sources/charge.o"
+"./Sources/button.o"
+"./Sources/adc16.o"
+-mcpu=cortex-m0
+-mthumb
+-mfloat-abi=soft
+-g3
+-gdwarf-2
+-gstrict-dwarf
+-T"E:/Freescale Referrence Designs/20140905 Power Bank Project/Source Code Tree/PowerBank/Project_Settings/Linker_Files/MKL26Z128_flash.ld"
+-Xlinker
+--gc-sections
+-L"C:/Program Files (x86)/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv6-m"
+-Wl,-Map,PowerBank.map
+-n
+-specs=ewl_c_noio.specs

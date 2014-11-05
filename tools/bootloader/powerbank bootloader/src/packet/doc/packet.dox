@@ -1,0 +1,8 @@
+/*!
+
+@defgroup packet Packet Interface
+@ingroup bootloader
+@brief Serial packetizer.
+
+
+ */

@@ -40,18 +40,6 @@ void init_hardware()
 	llwu_init();
 	lptimer_init(5000);
 	statistic_init();
-	
-	 if(1 == (RCM_SRS0 >> 5))
-	 {
-		 do
-		 {
-		 led_toggle(1);
-		 led_toggle(2);
-		 led_toggle(3);
-		 led_toggle(4);
-		 delay_busy(100);
-		 }while(1);
-	 }
 }
 
 
@@ -66,6 +54,15 @@ int main(void)
 	 
 	init_hardware();
 	
+	led_toggle(1);
+	delay_busy(500);
+	led_toggle(1);
+	delay_busy(500);
+	led_toggle(1);
+	delay_busy(500);
+	led_toggle(1);
+	delay_busy(500);
+
 	/*Power bank state machine*/
 	power_bank_state_machine();
 	

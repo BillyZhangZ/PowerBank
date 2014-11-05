@@ -1,0 +1,3591 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>568696553</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\spi\hal\fsl_spi_hal.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\spi\hal\fsl_spi_features.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\spi\hal\fsl_spi_hal.h</file>
+      <file>$PROJ_DIR$\output\Debug\obj\command.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\flash_verify_erase.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\flash_security_bypass.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\flash_program.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\flash_is_protected.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_tpm.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_rtc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4.h</file>
+      <file>$PROJ_DIR$\output\Debug\obj\flash_init.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\flash_get_property.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\list\i2c_peripheral_interface.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\flash_get_security_state.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\loader.lst</file>
+      <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+      <file>$PROJ_DIR$\output\Debug\list\memory_map_MKL25Z4.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\itf_rom.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\memory.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\memory\src\sram_init.h</file>
+      <file>$PROJ_DIR$\output\Debug\list\memory_map_MKL25Z4.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\itf_rom.i</file>
+      <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+      <file>$PROJ_DIR$\output\Debug\list\peripherals_MKL25Z4.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\normal_memory.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\loader.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\memory.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\ring_buffer.lst</file>
+      <file>$PROJ_DIR$\output\Debug\obj\flash_get_security_state.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\list\microseconds_sysclk.lst</file>
+      <file>$PROJ_DIR$\output\Debug\obj\flash_erase_all_unsecure.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\list\serial_packet.lst</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\output\Debug\list\command.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\i2c_peripheral_interface.lst</file>
+      <file>$PROJ_DIR$\output\Debug\obj\loader.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\usb_hid.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\system_MKL25Z4.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\list\flash_densities_kl_series.lst</file>
+      <file>$PROJ_DIR$\output\Debug\obj\fsl_i2c_slave_driver.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\list\flash_densities_kl_series.i</file>
+      <file>$PROJ_DIR$\output\Debug\obj\usb_class.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\startup.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\property.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\flash_verify_program.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\clock_config_MKL25Z4.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\hardware_init_MKL25Z4.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\memory_map_MKL25Z4.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\flash_verify_erase.o</file>
+      <file>$PROJ_DIR$\output\Debug\list\fsl_rtos_abstraction.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\fsl_rtos_abstraction.lst</file>
+      <file>$PROJ_DIR$\output\Debug\obj\chunking_gasket.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\uart0.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\memory.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\device_memory.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_nv.h</file>
+      <file>$PROJ_DIR$\output\Debug\obj\flash_memory.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\uart.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\sram_init_cm0plus.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\itf_rom.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\normal_memory.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\serial_packet.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\fsl_spi_slave_driver.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\fsl_spi_hal.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\microseconds_sysclk.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\list\flash_command_sequence.lst</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\output\Debug\list\property.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\shutdown_cleanup.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\fsl_i2c_slave_driver.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\fsl_i2c_slave_driver.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\property.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\fsl_spi_slave_driver.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\fsl_spi_slave_driver.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\ring_buffer.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\hardware_init_MKL25Z4.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\flash_erase.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\spi_peripheral_interface.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\usb_class.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\usb_class.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\usb_driver.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\usb_dci_kinetis.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\system_MKL25Z4.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\uart.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\system_MKL25Z4.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\uart0.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\spi_peripheral_interface.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\uart.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\flash_erase_all_unsecure.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\uart0.i</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\output\Debug\list\usb_dci_kinetis.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\usb_framework.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\usb_hid.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\usb_descriptor.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\usb_driver.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\usb_descriptor.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\usb_hid.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\uart0_peripheral_interface.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\usb_framework.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\sram_init_cm0plus.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\startup.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\microseconds_sysclk.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\serial_packet.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\normal_memory.i</file>
+      <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\fsl_device_registers.h</file>
+      <file>$PROJ_DIR$\output\Debug\list\uart0_peripheral_interface.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\usb_hid_peripheral_interface.lst</file>
+      <file>$PROJ_DIR$\output\Debug\obj\fsl_spi_hal.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\startup.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\flash_is_protected.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\clock_config_MKL25Z4.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\device_memory.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\peripherals_MKL25Z4.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\startup_MKL25Z4.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\flash_verify_program.o</file>
+      <file>$PROJ_DIR$\output\Debug\list\command.i</file>
+      <file>$PROJ_DIR$\output\Debug\obj\flash_security_bypass.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\flash_erase_all_unsecure.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\boot.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\flash_erase.o</file>
+      <file>$PROJ_DIR$\..\..\src\clock_config_MKL25Z4.c</file>
+      <file>$PROJ_DIR$\..\..\src\hardware_init_MKL25Z4.c</file>
+      <file>$PROJ_DIR$\..\..\src\bootloader_config.h</file>
+      <file>$PROJ_DIR$\..\..\src\memory_map_MKL25Z4.c</file>
+      <file>$PROJ_DIR$\..\..\src\peripherals_MKL25Z4.c</file>
+      <file>$PROJ_DIR$\..\..\..\common\iar\config\128KB_Pflash_16KB_RAM_low_bootloader.icf</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\autobaud\src\autobaud_irq.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\autobaud\autobaud.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\src\bl_user_entry.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\src\bootloader.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\src\bootloader_context.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\src\bootloader_tree_root.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\src\command.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\src\i2c_peripheral_interface.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\src\shutdown_cleanup.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\src\spi_peripheral_interface.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\src\uart0_peripheral_interface.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\src\usb_hid_peripheral_interface.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\bl_peripheral_interface.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\bl_user_entry.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\bl_version.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\bootloader.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\command.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\context.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\peripheral.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\shutdown_cleanup.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\crc\src\crc16.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\crc\src\crc32.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\crc\crc16.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\crc\crc32.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\flash.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_command_sequence.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_densities_kl_series.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_erase.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_erase_all.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_erase_all_unsecure.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_get_property.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_get_security_state.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_init.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_is_protected.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_program.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_security_bypass.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_verify_erase.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_verify_erase_all.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_verify_program.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\SSD_FTFx_Common.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\i2c\src\fsl_i2c_slave_driver.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\i2c\fsl_i2c_slave_driver.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\microseconds\src\microseconds_sysclk.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\microseconds\microseconds.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\spi\src\fsl_spi_slave_driver.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\spi\fsl_spi_slave_driver.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\spi\fsl_spi_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\uart\uart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\uart\uart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\uart\uart0.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\uart\uart0.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\bootloader_common.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\fsl_platform_common.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\fsl_platform_status.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\fsl_platform_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\memory\src\device_memory.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\memory\src\device_memory.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\memory\src\flash_memory.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\memory\src\memory.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\memory\src\normal_memory.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\memory\src\normal_memory.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\memory\src\pattern_fill.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\memory\src\pattern_fill.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\memory\src\sram_init_cm0plus.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\memory\memory.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\packet\src\serial_packet.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\packet\command_packet.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\packet\serial_packet.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\property\src\property.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\property\property.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\sbloader\src\chunking_gasket.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\sbloader\src\itf_rom.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\sbloader\src\loader.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\sbloader\chunking_gasket.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\sbloader\itf_define.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\sbloader\itf_rom.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\sbloader\ldr_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\sbloader\loader.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\startup\boot.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\startup\crt0.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\startup\startup.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\startup\MKL25Z4\startup_MKL25Z4.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\startup\MKL25Z4\system_MKL25Z4.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\class\usb_hid.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\class\usb_hid.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\common\derivative.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\common\hidef.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\common\usb_class.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\common\usb_class.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\common\usb_framework.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\common\usb_framework.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\common\usb_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\common\wdt_kinetis.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\driver\kinetis\usb_bdt_kinetis.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\driver\kinetis\usb_dci_kinetis.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\driver\kinetis\usb_dci_kinetis.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\driver\kinetis\usb_dciapi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\driver\usb_devapi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\driver\usb_driver.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\driver\usbevent.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\driver\usbevent.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\hid\USB_Config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\hid\usb_descriptor.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\hid\usb_descriptor.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\hid\user_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\bootloader_hid_report_ids.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\utilities\src\fsl_rtos_abstraction.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\utilities\fsl_rtos_abstraction.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\utilities\src\ring_buffer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\utilities\ring_buffer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\utilities\vector_table_info.h</file>
+      <file>$PROJ_DIR$\output\Debug\list\flash_verify_erase_all.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\flash_erase_all_unsecure.i</file>
+      <file>$PROJ_DIR$\output\Debug\obj\flash_verify_erase_all.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_ftfa.h</file>
+      <file>$PROJ_DIR$\output\Debug\list\startup.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_features.h</file>
+      <file>$PROJ_DIR$\output\Debug\obj\flash_densities_kl_series.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\list\usbevent.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_dmamux.h</file>
+      <file>$PROJ_DIR$\output\Debug\obj\loader.o</file>
+      <file>$PROJ_DIR$\output\Debug\list\usbevent.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\sram_init_cm0plus.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\flash_erase_all.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\regs.h</file>
+      <file>$PROJ_DIR$\output\Debug\list\flash_get_security_state.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\flash_erase_all.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_i2c.h</file>
+      <file>$PROJ_DIR$\output\Debug\list\flash_security_bypass.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\flash_init.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\flash_init.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\flash_memory.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\flash_security_bypass.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\flash_verify_erase.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\fsl_spi_hal.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\usb_hid_peripheral_interface.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\hardware_init_MKL25Z4.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\fsl_spi_hal.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\flash_verify_program.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\flash_verify_erase_all.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\flash_verify_program.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\flash_verify_erase.lst</file>
+      <file>$PROJ_DIR$\output\Debug\obj\flash_memory.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\spi_peripheral_interface.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\fsl_flash_features.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_uart0.h</file>
+      <file>$PROJ_DIR$\output\Debug\list\bl_user_entry.i</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\output\Debug\list\bootloader_context.i</file>
+      <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+      <file>$PROJ_DIR$\output\Debug\obj\system_MKL25Z4.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\fsl_i2c_slave_driver.o</file>
+      <file>$PROJ_DIR$\output\Debug\list\bootloader.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\crc32.lst</file>
+      <file>$PROJ_DIR$\output\Debug\obj\usbevent.o</file>
+      <file>$PROJ_DIR$\output\Debug\list\autobaud_irq.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\bootloader_tree_root.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_lptmr.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_pmc.h</file>
+      <file>$PROJ_DIR$\output\Debug\list\device_memory.i</file>
+      <file>$PROJ_DIR$\output\Debug\obj\chunking_gasket.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\normal_memory.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\uart0.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\flash_program.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\usb_class.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\crt0.o</file>
+      <file>$PROJ_DIR$\output\Debug\list\chunking_gasket.i</file>
+      <file>$PROJ_DIR$\output\Debug\obj\usb_driver.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\bootloader_context.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\itf_rom.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\flash_get_security_state.o</file>
+      <file>$PROJ_DIR$\output\Debug\list\device_memory.lst</file>
+      <file>$PROJ_DIR$\output\Debug\obj\usb_framework.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\crc16.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\crc32.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\fsl_rtos_abstraction.o</file>
+      <file>$PROJ_DIR$\output\Debug\list\autobaud_irq.i</file>
+      <file>$PROJ_DIR$\output\Debug\obj\usb_dci_kinetis.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_tsi.h</file>
+      <file>$PROJ_DIR$\output\Debug\list\flash_command_sequence.i</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\output\Debug\obj\flash_get_property.o</file>
+      <file>$PROJ_DIR$\output\Debug\list\crc32.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_llwu.h</file>
+      <file>$PROJ_DIR$\output\Debug\list\chunking_gasket.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\bootloader_tree_root.i</file>
+      <file>$PROJ_DIR$\output\Debug\obj\hardware_init_MKL25Z4.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\autobaud_irq.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\output\Debug\obj\uart0_peripheral_interface.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\output\Debug\list\clock_config_MKL25Z4.lst</file>
+      <file>$PROJ_DIR$\output\Debug\obj\shutdown_cleanup.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\output\Debug\obj\bootloader.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\uart.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\ring_buffer.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\usb_hid_peripheral_interface.o</file>
+      <file>$PROJ_DIR$\output\Debug\list\clock_config_MKL25Z4.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_fgpio.h</file>
+      <file>$PROJ_DIR$\output\Debug\obj\bootloader_tree_root.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\i2c_peripheral_interface.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_dac.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_mcg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_sim.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\output\Debug\obj\autobaud_irq.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\peripherals_MKL25Z4.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\bl_user_entry.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\bootloader.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\bootloader_context.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\bootloader_tree_root.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\command.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\shutdown_cleanup.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\crc16.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\crc32.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\flash_command_sequence.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\flash_erase.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\flash_densities_kl_series.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\output\Debug\obj\bl_user_entry.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_gpio.h</file>
+      <file>$PROJ_DIR$\output\Debug\list\crc16.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\output\Debug\list\bootloader_context.lst</file>
+      <file>$PROJ_DIR$\output\Debug\obj\flash_command_sequence.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\output\Debug\obj\i2c_peripheral_interface.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\list\bl_user_entry.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\bootloader.i</file>
+      <file>$PROJ_DIR$\output\Debug\obj\microseconds_sysclk.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\flash_verify_erase_all.o</file>
+      <file>$PROJ_DIR$\output\Debug\list\flash_erase.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_dma.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_densities.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_cmp.h</file>
+      <file>$PROJ_DIR$\output\Debug\obj\usb_hid.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_adc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_mtbdwt.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_port.h</file>
+      <file>$PROJ_DIR$\output\Debug\obj\usb_descriptor.o</file>
+      <file>$PROJ_DIR$\output\Debug\list\crc16.i</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_uart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_mtb.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\output\Debug\obj\serial_packet.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\property.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\memory_map_MKL25Z4.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\system_MKL25Z4.h</file>
+      <file>$PROJ_DIR$\output\Debug\obj\memory.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\core_cm0plus.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_rcm.h</file>
+      <file>$PROJ_DIR$\output\Debug\obj\fsl_spi_slave_driver.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\sram_init_cm0plus.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_mcm.h</file>
+      <file>$PROJ_DIR$\output\Debug\obj\flash_erase_all.o</file>
+      <file>$PROJ_DIR$\output\Debug\list\shutdown_cleanup.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_osc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_smc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_usb.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_spi.h</file>
+      <file>$PROJ_DIR$\output\Debug\freedom_bootloader.elf</file>
+      <file>$PROJ_DIR$\output\Debug\list\freedom_bootloader.map</file>
+      <file>$PROJ_DIR$\output\Debug\list\peripherals_MKL25Z4.i</file>
+      <file>$PROJ_DIR$\output\Debug\obj\usb_dci_kinetis.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\usbevent.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\usb_descriptor.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\usb_framework.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_rom.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\output\Debug\obj\ring_buffer.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\fsl_rtos_abstraction.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\usb_driver.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$PROJ_DIR$\output\Debug\obj\flash_init.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\pattern_fill.o</file>
+      <file>$PROJ_DIR$\output\Debug\obj\flash_erase_all.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\list\flash_get_property.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\flash_program.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\flash_get_property.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\flash_program.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\flash_is_protected.i</file>
+      <file>$PROJ_DIR$\output\Debug\list\flash_memory.lst</file>
+      <file>$PROJ_DIR$\output\Debug\list\flash_is_protected.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\memory\src\flash_memory.h</file>
+      <file>$PROJ_DIR$\output\Debug\obj\usb_hid_peripheral_interface.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_pit.h</file>
+      <file>$PROJ_DIR$\output\Debug\obj\spi_peripheral_interface.pbi</file>
+      <file>$PROJ_DIR$\output\Debug\obj\uart0_peripheral_interface.pbi</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\spi\hal\fsl_spi_hal.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 266 263 110</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 182 337 351 276 360 353 318 320 354 1 175 107 372 253 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 333 278</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 2 182 337 351 276 360 353 318 320 354 1 175 107 372 253 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 333 278</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 397 396</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\clock_config_MKL25Z4.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 329 321 113</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 323 351 276 360 353 318 320 354 33 324 183 337 333 182 181 125 146 147 193 195 145 198 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 153 245 273</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\hardware_init_MKL25Z4.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 76 265 316</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 323 351 276 360 353 318 320 354 33 324 408 183 337 333 182 181 125 146 147 193 195 145 198 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 153 245 273 177</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 323 351 276 360 353 318 320 354 33 324 183 337 333 182 181 125 146 147 193 195 145 198 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 153 245 273 177</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\memory_map_MKL25Z4.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 17 21 382</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 183 323 351 276 360 353 318 320 354 33 324 337 333 182 147 193 180 181 125 195 145 198 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 153 245 273</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\peripherals_MKL25Z4.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 339</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 398 24 115</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146 183 323 351 276 360 353 318 320 354 33 324 337 333 182 147 193 180 408 181 125 195 145 198 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 153 245 273 141 196</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 183 323 351 276 360 353 318 320 354 33 324 337 333 182 147 193 180 181 125 195 145 198 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 153 245 273 141 196</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\autobaud\src\autobaud_irq.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 338</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 306 284 317</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 181 323 351 276 360 353 318 320 354 33 324 408 183 337 333 182 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 130 125 172 180</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 181 323 351 276 360 353 318 320 354 33 324 183 337 333 182 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 130 125 172 180</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\bootloader\src\bl_user_entry.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 340</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 275 362 352</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107 372 253 337 351 276 360 353 318 320 354 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 180 323 324 408 183 333 182 181 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 372 253 337 351 276 360 353 318 320 354 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 180 323 324 183 333 182 181 125</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\bootloader\src\bootloader.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 341</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 363 281 325</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 278 351 276 360 353 318 320 354 146 183 323 33 324 337 333 182 147 193 180 408 181 125 195 145 198 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 153 245 273 148 172 144 143 142 141 239 236</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 278 351 276 360 353 318 320 354 146 183 323 33 324 337 333 182 147 193 180 181 125 195 145 198 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 153 245 273 148 172 144 143 142 141 239 236</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\bootloader\src\bootloader_context.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 342</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 277 358 298</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146 183 323 351 276 360 353 318 320 354 33 324 337 333 182 147 193 180 408 181 125 195 145 198 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 153 245 273</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 183 323 351 276 360 353 318 320 354 33 324 337 333 182 147 193 180 181 125 195 145 198 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 153 245 273</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\bootloader\src\bootloader_tree_root.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 343</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 315 285 331</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144 180 323 351 276 360 353 318 320 354 33 324 408 183 337 333 182 181 125 147 145 146 193 195 198 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 153 245 273 143 142 141 148</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 144 180 323 351 276 360 353 318 320 354 33 324 183 337 333 182 181 125 147 145 146 193 195 198 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 153 245 273 143 142 141 148</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\bootloader\src\command.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 344</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 118 34 3</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 323 351 276 360 353 318 320 354 33 324 408 183 337 333 182 181 125 144 147 145 146 193 195 198 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 153 245 273 143 142 141 148 206 204 203 152 278 67 287</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 323 351 276 360 353 318 320 354 33 324 183 337 333 182 181 125 144 147 145 146 193 195 198 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 153 245 273 143 142 141 148 206 204 203 152 278 67 287</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\bootloader\src\i2c_peripheral_interface.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 361</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 13 35 332</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 278 351 276 360 353 318 320 354 146 183 323 33 324 337 333 182 147 193 180 408 181 125 195 145 198 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 153 245 273 170</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 278 351 276 360 353 318 320 354 146 183 323 33 324 337 333 182 147 193 180 181 125 195 145 198 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 153 245 273 170</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\bootloader\src\shutdown_cleanup.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 345</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69 391 322</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107 372 253 337 351 276 360 353 318 320 354 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 236 333 239 125 153 182 245 273 172 323 324 148 183 146 147 193 180 408 181 195 145 198</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 372 253 337 351 276 360 353 318 320 354 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 236 333 239 125 153 182 245 273 172 323 324 148 183 146 147 193 180 181 195 145 198</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\bootloader\src\spi_peripheral_interface.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 422</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78 87 272</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 278 351 276 360 353 318 320 354 146 183 323 33 324 337 333 182 147 193 180 408 181 125 195 145 198 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 153 245 273 174 175</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 278 351 276 360 353 318 320 354 146 183 323 33 324 337 333 182 147 193 180 181 125 195 145 198 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 153 245 273 174 175</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\bootloader\src\uart0_peripheral_interface.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 423</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108 99 319</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146 183 323 351 276 360 353 318 320 354 33 324 337 333 182 147 193 180 408 181 125 195 145 198 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 153 245 273 130 196 179 278</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 183 323 351 276 360 353 318 320 354 33 324 337 333 182 147 193 180 181 125 195 145 198 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 153 245 273 130 196 179 278</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\bootloader\src\usb_hid_peripheral_interface.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 420</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 264 109 328</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146 183 323 351 276 360 353 318 320 354 33 324 337 333 182 147 193 180 408 181 125 195 145 198 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 153 245 273 144 143 142 141 148 224 220 91 214 226 215 233 213 232 217 234 236 67 287</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 183 323 351 276 360 353 318 320 354 33 324 337 333 182 147 193 180 181 125 195 145 198 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 153 245 273 144 143 142 141 148 224 220 91 214 226 215 233 213 232 217 234 236 67 287</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\crc\src\crc16.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 346</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 376 356 303</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 151 337 351 276 360 353 318 320 354 182 181 323 33 324 408 183 333 278</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 151 337 351 276 360 353 318 320 354 182 181 323 33 324 183 333 278</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\crc\src\crc32.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 347</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 312 282 304</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152 337 351 276 360 353 318 320 354 182 278</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 152 337 351 276 360 353 318 320 354 182 278</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_command_sequence.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 348</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 309 66 359</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 278 351 276 360 353 318 320 354 168 153 182 337 245 273 107 372 253 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 333 180 323 324 408 183 181 125 67 287</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 278 351 276 360 353 318 320 354 168 153 182 337 245 273 107 372 253 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 333 180 323 324 183 181 125 67 287</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_densities_kl_series.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 246</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 39 350</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 337 351 276 360 353 318 320 354 369</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 337 351 276 360 353 318 320 354 369</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_erase.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 349</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 366 77 122</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168 153 182 337 351 276 360 353 318 320 354 245 273 107 372 253 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 333 180 323 324 408 183 181 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 168 153 182 337 351 276 360 353 318 320 354 245 273 107 372 253 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 333 180 323 324 183 181 125</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_erase_all.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 411</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 252 255 390</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168 153 182 337 351 276 360 353 318 320 354 245 273 107 372 253 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 333 180 323 324 408 183 181 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 168 153 182 337 351 276 360 353 318 320 354 245 273 107 372 253 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 333 180 323 324 183 181 125</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_erase_all_unsecure.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 241 89 120</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168 153 182 337 351 276 360 353 318 320 354 245 273 107 372 253 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 333 180 323 324 408 183 181 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 168 153 182 337 351 276 360 353 318 320 354 245 273 107 372 253 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 333 180 323 324 183 181 125</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_get_property.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 414 412 311</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168 153 182 337 351 276 360 353 318 320 354 245 273 107 372 253 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 333 180 323 324 408 183 181 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 168 153 182 337 351 276 360 353 318 320 354 245 273 107 372 253 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 333 180 323 324 183 181 125</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_get_security_state.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 254 14 300</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168 153 182 337 351 276 360 353 318 320 354 245 273 107 372 253 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 333 180 323 324 408 183 181 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 168 153 182 337 351 276 360 353 318 320 354 245 273 107 372 253 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 333 180 323 324 183 181 125</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_init.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 258 259 409</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168 153 182 337 351 276 360 353 318 320 354 245 273 107 372 253 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 333 180 323 324 408 183 181 125 369</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 168 153 182 337 351 276 360 353 318 320 354 245 273 107 372 253 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 333 180 323 324 183 181 125 369</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_is_protected.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 416 418 112</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168 153 182 337 351 276 360 353 318 320 354 245 273 107 372 253 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 333 180 323 324 408 183 181 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 168 153 182 337 351 276 360 353 318 320 354 245 273 107 372 253 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 333 180 323 324 183 181 125</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_program.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 415 413 293</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168 153 182 337 351 276 360 353 318 320 354 245 273 107 372 253 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 333 180 323 324 408 183 181 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 168 153 182 337 351 276 360 353 318 320 354 245 273 107 372 253 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 333 180 323 324 183 181 125</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_security_bypass.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 261 257 119</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168 153 182 337 351 276 360 353 318 320 354 245 273 107 372 253 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 333 180 323 324 408 183 181 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 168 153 182 337 351 276 360 353 318 320 354 245 273 107 372 253 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 333 180 323 324 183 181 125</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_verify_erase.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 262 270 49</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168 153 182 337 351 276 360 353 318 320 354 245 273 107 372 253 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 333 180 323 324 408 183 181 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 168 153 182 337 351 276 360 353 318 320 354 245 273 107 372 253 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 333 180 323 324 183 181 125</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_verify_erase_all.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 242</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 268 240 365</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168 153 182 337 351 276 360 353 318 320 354 245 273 107 372 253 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 333 180 323 324 408 183 181 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 168 153 182 337 351 276 360 353 318 320 354 245 273 107 372 253 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 333 180 323 324 183 181 125</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_verify_program.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 267 269 117</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168 153 182 337 351 276 360 353 318 320 354 245 273 107 372 253 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 333 180 323 324 408 183 181 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 168 153 182 337 351 276 360 353 318 320 354 245 273 107 372 253 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 333 180 323 324 183 181 125</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\i2c\src\fsl_i2c_slave_driver.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 70 71 280</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 181 323 351 276 360 353 318 320 354 33 324 408 183 337 333 182 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 170 180 125 278</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 181 323 351 276 360 353 318 320 354 33 324 183 337 333 182 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 170 180 125 278</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\microseconds\src\microseconds_sysclk.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 103 30 364</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 181 323 351 276 360 353 318 320 354 33 324 408 183 337 333 182 172 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 181 323 351 276 360 353 318 320 354 33 324 183 337 333 182 172 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\spi\src\fsl_spi_slave_driver.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 74 73 387</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 181 323 351 276 360 353 318 320 354 33 324 408 183 337 333 182 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 174 175 2 1 278 180 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 181 323 351 276 360 353 318 320 354 33 324 183 337 333 182 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 174 175 2 1 278 180 125</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\uart\uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84 88 326</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 181 323 351 276 360 353 318 320 354 33 324 408 183 337 333 182 177 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 181 323 351 276 360 353 318 320 354 33 324 183 337 333 182 177 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\uart\uart0.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 86 292</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 181 323 351 276 360 353 318 320 354 33 324 408 183 337 333 182 179 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 181 323 351 276 360 353 318 320 354 33 324 183 337 333 182 179 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\memory\src\device_memory.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 289 301 114</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67 351 276 360 353 318 320 354 33 287 185 193 337 180 323 324 408 183 333 182 181 125 190</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 67 351 276 360 353 318 320 354 33 287 185 193 337 180 323 324 183 333 182 181 125 190</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\memory\src\flash_memory.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 260 417 271</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 323 351 276 360 353 318 320 354 33 324 408 183 337 333 182 181 125 193 419 189 153 245 273 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 146 147 195 145 198 236 278 67 287</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 323 351 276 360 353 318 320 354 33 324 183 337 333 182 181 125 193 419 189 153 245 273 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 146 147 195 145 198 236 278 67 287</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\memory\src\memory.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 27 19 384</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 323 351 276 360 353 318 320 354 33 324 408 183 337 333 182 181 125 146 147 193 195 145 198 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 153 245 273 419 278 20</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 323 351 276 360 353 318 320 354 33 324 183 337 333 182 181 125 146 147 193 195 145 198 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 153 245 273 419 278 20</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\memory\src\normal_memory.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 105 25 291</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67 351 276 360 353 318 320 354 33 287 189 193 337 180 323 324 408 183 333 182 181 125 190</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 67 351 276 360 353 318 320 354 33 287 189 193 337 180 323 324 183 333 182 181 125 190</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\memory\src\pattern_fill.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 410</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\memory\src\sram_init_cm0plus.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 101 251 388</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 323 351 276 360 353 318 320 354 33 324 408 183 337 333 182 181 125 146 147 193 195 145 198 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 153 245 273 278 20</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 323 351 276 360 353 318 320 354 33 324 183 337 333 182 181 125 146 147 193 195 145 198 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 153 245 273 278 20</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\packet\src\serial_packet.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 104 32 380</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67 351 276 360 353 318 320 354 33 287 278 180 323 324 408 183 337 333 182 181 125 146 147 193 195 145 198 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 153 245 273 144 143 142 141 148 196 151 172</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 67 351 276 360 353 318 320 354 33 287 278 180 323 324 183 337 333 182 181 125 146 147 193 195 145 198 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 153 245 273 144 143 142 141 148 196 151 172</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\property\src\property.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68 72 381</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 323 351 276 360 353 318 320 354 33 324 408 183 337 333 182 181 125 198 195 147 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 193 196 146 145 153 245 273 143 278 67 287 239</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 323 351 276 360 353 318 320 354 33 324 183 337 333 182 181 125 198 195 147 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 193 196 146 145 153 245 273 143 278 67 287 239</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\sbloader\src\chunking_gasket.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 296 314 290</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 323 351 276 360 353 318 320 354 33 324 408 183 337 333 182 181 125 202 203 278</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 323 351 276 360 353 318 320 354 33 324 183 337 333 182 181 125 202 203 278</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\sbloader\src\itf_rom.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 22 18 299</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 203 180 323 351 276 360 353 318 320 354 33 324 408 183 337 333 182 181 125 206 204 152 202</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 203 180 323 351 276 360 353 318 320 354 33 324 183 337 333 182 181 125 206 204 152 202</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\sbloader\src\loader.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 26 15 249</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 337 351 276 360 353 318 320 354 323 33 324 67 287 180 408 183 333 182 181 125 206 204 203 152 146 147 193 195 145 198 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 153 245 273 144 143 142 141 148 205</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 337 351 276 360 353 318 320 354 323 33 324 67 287 180 183 333 182 181 125 206 204 203 152 146 147 193 195 145 198 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 153 245 273 144 143 142 141 148 205</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\startup\boot.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 121</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\startup\crt0.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 295</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\startup\startup.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 244 102 111</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 181 323 351 276 360 353 318 320 354 33 324 408 183 337 333 182 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 181 323 351 276 360 353 318 320 354 33 324 183 337 333 182 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\startup\MKL25Z4\startup_MKL25Z4.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 116</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\startup\MKL25Z4\system_MKL25Z4.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 85 83 279</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 337 351 276 360 353 318 320 354 107 372 253 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 337 351 276 360 353 318 320 354 107 372 253 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\usb_device\class\usb_hid.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 98 94 371</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 213 220 91 351 276 360 353 318 320 354 33 232 217 226 215 181 323 324 408 183 337 333 182 214 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 233 147</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 213 220 91 351 276 360 353 318 320 354 33 232 217 226 215 181 323 324 183 337 333 182 214 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 233 147</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\usb_device\common\usb_class.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79 80 294</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 217 220 91 351 276 360 353 318 320 354 33 226 215 181 323 324 408 183 337 333 182 214 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 233 147 219 232</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 217 220 91 351 276 360 353 318 320 354 33 226 215 181 323 324 183 337 333 182 214 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 233 147 219 232</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\usb_device\common\usb_framework.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 402</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100 93 302</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 220 91 351 276 360 353 318 320 354 33 217 226 215 181 323 324 408 183 337 333 182 214 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 233 147 219 232 67 287</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 220 91 351 276 360 353 318 320 354 33 217 226 215 181 323 324 183 337 333 182 214 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 233 147 219 232 67 287</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\usb_device\driver\kinetis\usb_dci_kinetis.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 399</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 82 92 307</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67 351 276 360 353 318 320 354 33 287 225 220 91 226 215 181 323 324 408 183 337 333 182 214 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 233 224 222 221 217 147</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 67 351 276 360 353 318 320 354 33 287 225 220 91 226 215 181 323 324 183 337 333 182 214 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 233 224 222 221 217 147</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\usb_device\driver\usb_driver.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 407</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 96 81 297</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 226 220 91 351 276 360 353 318 320 354 33 215 181 323 324 408 183 337 333 182 214 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 233 225 230</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 226 220 91 351 276 360 353 318 320 354 33 215 181 323 324 183 337 333 182 214 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 233 225 230</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\usb_device\driver\usbevent.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 400</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 250 247 283</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 229 220 91 351 276 360 353 318 320 354 33 226 215 181 323 324 408 183 337 333 182 214 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 233</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 229 220 91 351 276 360 353 318 320 354 33 226 215 181 323 324 183 337 333 182 214 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 233</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\usb_device\hid\usb_descriptor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 401</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97 95 375</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 214 181 323 351 276 360 353 318 320 354 33 324 408 183 337 333 182 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 220 91 217 226 215 233 147 232 234 195 198 180 125 146 193 145 153 245 273</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 214 181 323 351 276 360 353 318 320 354 33 324 183 337 333 182 107 372 253 310 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 220 91 217 226 215 233 147 232 234 195 198 180 125 146 193 145 153 245 273</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\utilities\src\fsl_rtos_abstraction.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 406</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 51 305</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 278 351 276 360 353 318 320 354 236 337 333 107 372 253 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 278 351 276 360 353 318 320 354 236 337 333 107 372 253 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\utilities\src\ring_buffer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 405</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 75 28 327</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 278 351 276 360 353 318 320 354 238 337 333 107 372 253 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 236</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 278 351 276 360 353 318 320 354 238 337 333 107 372 253 310 33 370 334 367 248 330 243 355 256 313 286 335 389 378 373 56 392 421 288 374 386 403 9 336 393 395 8 308 377 274 394 10 385 404 368 379 357 383 236</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\output\Debug\freedom_bootloader.elf</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 397</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 128 317 352 121 325 298 331 290 113 3 303 304 295 114 359 350 122 390 120 311 300 409 112 271 293 119 49 365 117 280 305 110 387 316 332 299 249 384 382 364 291 410 115 381 327 380 322 272 388 111 116 279 326 292 319 294 307 375 297 302 371 328 283 16 23 106</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs>
+      <file>$PROJ_DIR$\output\Release\obj\flash_erase.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\flash_erase_all.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\flash_get_property.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\flash_init.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\flash_is_protected.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\flash_program.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\flash_security_bypass.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\flash_verify_erase.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\flash_verify_program.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\fsl_i2c_slave_driver.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\i2c_peripheral_interface.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\microseconds_sysclk.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\spi_peripheral_interface.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\uart0_peripheral_interface.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\usb_hid_peripheral_interface.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\fsl_spi_hal.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\flash_command_sequence.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\flash_densities_kl_series.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\fsl_spi_slave_driver.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\uart.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\uart0.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\flash_erase_all_unsecure.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\device_memory.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\flash_get_security_state.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\flash_memory.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\memory.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\normal_memory.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\sram_init_cm0plus.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\serial_packet.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\flash_verify_erase_all.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\property.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\chunking_gasket.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\itf_rom.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\loader.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\startup.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\system_MKL25Z4.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\usb_hid.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\usb_class.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\usb_framework.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\usb_dci_kinetis.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\usb_driver.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\usbevent.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\usb_descriptor.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\fsl_rtos_abstraction.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\ring_buffer.pbi</file>
+      <file>$PROJ_DIR$\output\Release\freedom_bootloader.elf</file>
+      <file>$PROJ_DIR$\output\Release\list\peripherals_MKL25Z4.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\flash_is_protected.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\bl_user_entry.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\autobaud_irq.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\flash_verify_erase.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\normal_memory.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\shutdown_cleanup.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\usb_class.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\usb_descriptor.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\usb_driver.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\crc32.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\flash_verify_erase_all.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\fsl_rtos_abstraction.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\fsl_spi_slave_driver.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\freedom_bootloader.map</file>
+      <file>$PROJ_DIR$\output\Release\list\property.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\microseconds_sysclk.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\clock_config_MKL25Z4.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\command.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\flash_init.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\startup.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\bootloader.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\uart0.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\memory.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\memory_map_MKL25Z4.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\flash_erase.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\spi\hal\fsl_spi_hal.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\spi\hal\fsl_spi_features.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\spi\hal\fsl_spi_hal.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_tpm.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_rtc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4.h</file>
+      <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\memory\src\sram_init.h</file>
+      <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_nv.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\fsl_device_registers.h</file>
+      <file>$PROJ_DIR$\..\..\src\clock_config_MKL25Z4.c</file>
+      <file>$PROJ_DIR$\..\..\src\hardware_init_MKL25Z4.c</file>
+      <file>$PROJ_DIR$\..\..\src\bootloader_config.h</file>
+      <file>$PROJ_DIR$\..\..\src\memory_map_MKL25Z4.c</file>
+      <file>$PROJ_DIR$\..\..\src\peripherals_MKL25Z4.c</file>
+      <file>$PROJ_DIR$\..\..\..\common\iar\config\128KB_Pflash_16KB_RAM_low_bootloader.icf</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\autobaud\src\autobaud_irq.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\autobaud\autobaud.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\src\bl_user_entry.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\src\bootloader.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\src\bootloader_context.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\src\bootloader_tree_root.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\src\command.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\src\i2c_peripheral_interface.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\src\shutdown_cleanup.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\src\spi_peripheral_interface.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\src\uart0_peripheral_interface.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\src\usb_hid_peripheral_interface.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\bl_peripheral_interface.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\bl_user_entry.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\bl_version.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\bootloader.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\command.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\context.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\init_info.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\peripheral.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\bootloader\shutdown_cleanup.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\crc\src\crc16.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\crc\src\crc32.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\crc\crc16.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\crc\crc32.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\flash.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_command_sequence.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_densities_kl_series.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_erase.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_erase_all.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_erase_all_unsecure.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_get_property.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_get_security_state.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_init.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_is_protected.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_program.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_security_bypass.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_verify_erase.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_verify_erase_all.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_verify_program.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\SSD_FTFx_Common.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\i2c\src\fsl_i2c_slave_driver.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\i2c\fsl_i2c_slave_driver.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\microseconds\src\microseconds_sysclk.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\microseconds\microseconds.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\spi\src\fsl_spi_slave_driver.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\spi\fsl_spi_slave_driver.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\spi\fsl_spi_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\uart\uart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\uart\uart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\uart\uart0.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\uart\uart0.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\bootloader_common.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\fsl_platform_common.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\fsl_platform_status.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\fsl_platform_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\memory\src\device_memory.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\memory\src\device_memory.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\memory\src\flash_memory.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\memory\src\memory.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\memory\src\normal_memory.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\memory\src\normal_memory.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\memory\src\pattern_fill.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\memory\src\pattern_fill.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\memory\src\sram_init_cm0plus.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\memory\memory.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\packet\src\serial_packet.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\packet\command_packet.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\packet\serial_packet.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\property\src\property.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\property\property.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\sbloader\src\chunking_gasket.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\sbloader\src\itf_rom.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\sbloader\src\loader.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\sbloader\chunking_gasket.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\sbloader\itf_define.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\sbloader\itf_rom.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\sbloader\ldr_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\sbloader\loader.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\startup\boot.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\startup\crt0.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\startup\startup.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\startup\MKL25Z4\startup_MKL25Z4.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\startup\MKL25Z4\system_MKL25Z4.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\class\usb_hid.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\class\usb_hid.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\common\derivative.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\common\hidef.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\common\usb_class.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\common\usb_class.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\common\usb_framework.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\common\usb_framework.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\common\usb_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\common\wdt_kinetis.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\driver\kinetis\usb_bdt_kinetis.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\driver\kinetis\usb_dci_kinetis.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\driver\kinetis\usb_dci_kinetis.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\driver\kinetis\usb_dciapi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\driver\usb_devapi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\driver\usb_driver.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\driver\usbevent.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\driver\usbevent.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\hid\USB_Config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\hid\usb_descriptor.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\hid\usb_descriptor.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\hid\user_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\usb_device\bootloader_hid_report_ids.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\utilities\src\fsl_rtos_abstraction.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\utilities\fsl_rtos_abstraction.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\utilities\src\ring_buffer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\utilities\ring_buffer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\utilities\vector_table_info.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_ftfa.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_features.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_dmamux.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\regs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_i2c.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\fsl_flash_features.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_uart0.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_lptmr.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_pmc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_tsi.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_llwu.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_fgpio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_dac.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_mcg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_sim.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\core_cmFunc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_dma.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_densities.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_cmp.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_adc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_mtbdwt.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_port.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_uart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_mtb.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\system_MKL25Z4.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\core_cm0plus.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_rcm.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_mcm.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_osc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_smc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_usb.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_spi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_rom.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\core_cmInstr.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\memory\src\flash_memory.h</file>
+      <file>$PROJ_DIR$\output\Release\list\system_MKL25Z4.lst</file>
+      <file>$PROJ_DIR$\..\..\..\..\src\include\device\MKL25Z4\MKL25Z4_pit.h</file>
+      <file>$PROJ_DIR$\output\Release\list\ring_buffer.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\fsl_spi_hal.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\fsl_i2c_slave_driver.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\bootloader_tree_root.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\spi_peripheral_interface.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\bootloader_context.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\sram_init_cm0plus.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\crc16.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\chunking_gasket.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\usb_framework.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\flash_verify_program.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\flash_get_property.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\serial_packet.lst</file>
+      <file>$PROJ_DIR$\output\Release\obj\hardware_init_MKL25Z4.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\clock_config_MKL25Z4.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\peripherals_MKL25Z4.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\memory_map_MKL25Z4.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\bootloader_tree_root.o</file>
+      <file>$PROJ_DIR$\output\Release\list\flash_program.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\uart0_peripheral_interface.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\loader.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\flash_memory.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\flash_erase_all.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\flash_command_sequence.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\freedom_bootloader.log</file>
+      <file>$PROJ_DIR$\output\Release\list\usbevent.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\usb_hid_peripheral_interface.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\device_memory.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\itf_rom.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\uart.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\usb_dci_kinetis.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\usb_hid.lst</file>
+      <file>$PROJ_DIR$\output\Release\obj\freedom_bootloader.pbd</file>
+      <file>$PROJ_DIR$\output\Release\obj\bl_user_entry.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\autobaud_irq.o</file>
+      <file>$PROJ_DIR$\output\Release\list\flash_get_security_state.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\i2c_peripheral_interface.lst</file>
+      <file>$PROJ_DIR$\output\Release\obj\bootloader.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\bootloader_context.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\shutdown_cleanup.o</file>
+      <file>$PROJ_DIR$\output\Release\list\flash_densities_kl_series.lst</file>
+      <file>$PROJ_DIR$\output\Release\list\flash_security_bypass.lst</file>
+      <file>$PROJ_DIR$\output\Release\obj\command.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\crc32.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\crc16.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\flash_command_sequence.o</file>
+      <file>$PROJ_DIR$\output\Release\list\hardware_init_MKL25Z4.lst</file>
+      <file>$PROJ_DIR$\output\Release\obj\flash_erase.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\flash_erase_all.o</file>
+      <file>$PROJ_DIR$\output\Release\list\flash_erase_all_unsecure.lst</file>
+      <file>$PROJ_DIR$\output\Release\obj\flash_get_property.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\flash_init.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\flash_is_protected.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\flash_program.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\flash_security_bypass.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\flash_verify_erase.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\flash_verify_erase_all.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\i2c_peripheral_interface.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\flash_verify_program.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\spi_peripheral_interface.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\uart0_peripheral_interface.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\usb_hid_peripheral_interface.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\fsl_i2c_slave_driver.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\flash_densities_kl_series.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\fsl_spi_hal.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\microseconds_sysclk.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\uart0.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\fsl_spi_slave_driver.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\flash_erase_all_unsecure.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\uart.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\flash_get_security_state.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\device_memory.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\memory.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\flash_memory.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\normal_memory.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\property.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\sram_init_cm0plus.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\serial_packet.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\loader.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\chunking_gasket.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\itf_rom.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\startup.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\usb_class.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\system_MKL25Z4.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\usb_hid.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\usb_dci_kinetis.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\usb_driver.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\usb_framework.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\fsl_rtos_abstraction.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\usbevent.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\usb_descriptor.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\pattern_fill.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\ring_buffer.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\boot.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\crt0.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\clock_config_MKL25Z4.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\startup_MKL25Z4.o</file>
+      <file>$PROJ_DIR$\output\Release\obj\hardware_init_MKL25Z4.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\memory_map_MKL25Z4.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\peripherals_MKL25Z4.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\autobaud_irq.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\bl_user_entry.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\bootloader.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\bootloader_context.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\bootloader_tree_root.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\command.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\shutdown_cleanup.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\crc16.pbi</file>
+      <file>$PROJ_DIR$\output\Release\obj\crc32.pbi</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\output\Release\freedom_bootloader.elf</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 60 284</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 92 294 293 353 297 298 277 339 274 302 304 303 354 331 305 323 307 308 328 310 330 311 312 333 313 314 315 316 318 322 348 324 327 273 317 340 338 332 276 325 334 351 275 335 352 337 299 319 336 341 356 343 329 326 320 342 345 350 346 347 344 321 349 78 80 85</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\spi\hal\fsl_spi_hal.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 261 324</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74 147 229 230 212 235 231 220 221 232 73 140 86 240 208 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 225 213</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 74 147 229 230 212 235 231 220 221 232 73 140 86 240 208 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 225 213</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 45 60 284</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\clock_config_MKL25Z4.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 355</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63 274</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 145 222 230 212 235 231 220 221 232 81 223 256 148 229 225 147 146 89 110 112 158 160 109 163 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 118 206 210</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 145 222 230 212 235 231 220 221 232 81 223 148 229 225 147 146 89 110 112 158 160 109 163 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 118 206 210</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\hardware_init_MKL25Z4.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 357</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 306 273</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 145 222 230 212 235 231 220 221 232 81 223 256 148 229 225 147 146 89 110 112 158 160 109 163 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 118 206 210 142</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 145 222 230 212 235 231 220 221 232 81 223 148 229 225 147 146 89 110 112 158 160 109 163 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 118 206 210 142</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\memory_map_MKL25Z4.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 358</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 70 276</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110 148 222 230 212 235 231 220 221 232 81 223 229 225 147 112 158 145 256 146 89 160 109 163 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 118 206 210</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 110 148 222 230 212 235 231 220 221 232 81 223 229 225 147 112 158 145 146 89 160 109 163 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 118 206 210</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\peripherals_MKL25Z4.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 359</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46 275</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110 148 222 230 212 235 231 220 221 232 81 223 229 225 147 112 158 145 256 146 89 160 109 163 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 118 206 210 105 161</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 110 148 222 230 212 235 231 220 221 232 81 223 229 225 147 112 158 145 146 89 160 109 163 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 118 206 210 105 161</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\autobaud\src\autobaud_irq.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 360</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49 294</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146 222 230 212 235 231 220 221 232 81 223 256 148 229 225 147 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 94 89 137 145</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 222 230 212 235 231 220 221 232 81 223 148 229 225 147 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 94 89 137 145</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\bootloader\src\bl_user_entry.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 361</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48 293</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 86 240 208 229 230 212 235 231 220 221 232 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 145 222 223 256 148 225 147 146 89</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 86 240 208 229 230 212 235 231 220 221 232 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 145 222 223 148 225 147 146 89</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\bootloader\src\bootloader.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 362</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 67 297</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 213 230 212 235 231 220 221 232 110 148 222 81 223 229 225 147 112 158 145 256 146 89 160 109 163 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 118 206 210 113 137 108 107 106 105 204 201</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 213 230 212 235 231 220 221 232 110 148 222 81 223 229 225 147 112 158 145 146 89 160 109 163 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 118 206 210 113 137 108 107 106 105 204 201</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\bootloader\src\bootloader_context.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 363</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 265 298</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110 148 222 230 212 235 231 220 221 232 81 223 229 225 147 112 158 145 256 146 89 160 109 163 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 118 206 210</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 110 148 222 230 212 235 231 220 221 232 81 223 229 225 147 112 158 145 146 89 160 109 163 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 118 206 210</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\bootloader\src\bootloader_tree_root.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 364</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 263 277</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108 145 222 230 212 235 231 220 221 232 81 223 256 148 229 225 147 146 89 112 109 110 158 160 163 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 118 206 210 107 106 105 113</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108 145 222 230 212 235 231 220 221 232 81 223 148 229 225 147 146 89 112 109 110 158 160 163 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 118 206 210 107 106 105 113</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\bootloader\src\command.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 365</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 64 302</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 145 222 230 212 235 231 220 221 232 81 223 256 148 229 225 147 146 89 108 112 109 110 158 160 163 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 118 206 210 107 106 105 113 171 169 168 117 213 83 215</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 145 222 230 212 235 231 220 221 232 81 223 148 229 225 147 146 89 108 112 109 110 158 160 163 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 118 206 210 107 106 105 113 171 169 168 117 213 83 215</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\bootloader\src\i2c_peripheral_interface.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 296 317</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 213 230 212 235 231 220 221 232 110 148 222 81 223 229 225 147 112 158 145 256 146 89 160 109 163 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 118 206 210 135</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 213 230 212 235 231 220 221 232 110 148 222 81 223 229 225 147 112 158 145 146 89 160 109 163 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 118 206 210 135</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\bootloader\src\shutdown_cleanup.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 366</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 52 299</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 86 240 208 229 230 212 235 231 220 221 232 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 201 225 204 89 118 147 206 210 137 222 223 113 148 110 112 158 145 256 146 160 109 163</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 86 240 208 229 230 212 235 231 220 221 232 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 201 225 204 89 118 147 206 210 137 222 223 113 148 110 112 158 145 146 160 109 163</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\bootloader\src\spi_peripheral_interface.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 264 319</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 213 230 212 235 231 220 221 232 110 148 222 81 223 229 225 147 112 158 145 256 146 89 160 109 163 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 118 206 210 139 140</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 213 230 212 235 231 220 221 232 110 148 222 81 223 229 225 147 112 158 145 146 89 160 109 163 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 118 206 210 139 140</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\bootloader\src\uart0_peripheral_interface.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 279 320</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110 148 222 230 212 235 231 220 221 232 81 223 229 225 147 112 158 145 256 146 89 160 109 163 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 118 206 210 94 161 144 213</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 110 148 222 230 212 235 231 220 221 232 81 223 229 225 147 112 158 145 146 89 160 109 163 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 118 206 210 94 161 144 213</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\bootloader\src\usb_hid_peripheral_interface.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 286 321</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110 148 222 230 212 235 231 220 221 232 81 223 229 225 147 112 158 145 256 146 89 160 109 163 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 118 206 210 108 107 106 105 113 189 185 84 179 191 180 198 178 197 182 199 201 83 215</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 110 148 222 230 212 235 231 220 221 232 81 223 229 225 147 112 158 145 146 89 160 109 163 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 118 206 210 108 107 106 105 113 189 185 84 179 191 180 198 178 197 182 199 201 83 215</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\crc\src\crc16.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 367</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 267 304</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 116 229 230 212 235 231 220 221 232 147 146 222 81 223 256 148 225 213</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 116 229 230 212 235 231 220 221 232 147 146 222 81 223 148 225 213</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\crc\src\crc32.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 368</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 56 303</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 117 229 230 212 235 231 220 221 232 147 213</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 117 229 230 212 235 231 220 221 232 147 213</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_command_sequence.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 283 305</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 213 230 212 235 231 220 221 232 133 118 147 229 206 210 86 240 208 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 225 145 222 223 256 148 146 89 83 215</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 213 230 212 235 231 220 221 232 133 118 147 229 206 210 86 240 208 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 225 145 222 223 148 146 89 83 215</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_densities_kl_series.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 300 323</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 229 230 212 235 231 220 221 232 238</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 229 230 212 235 231 220 221 232 238</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_erase.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 71 307</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133 118 147 229 230 212 235 231 220 221 232 206 210 86 240 208 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 225 145 222 223 256 148 146 89</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 133 118 147 229 230 212 235 231 220 221 232 206 210 86 240 208 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 225 145 222 223 148 146 89</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_erase_all.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 282 308</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133 118 147 229 230 212 235 231 220 221 232 206 210 86 240 208 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 225 145 222 223 256 148 146 89</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 133 118 147 229 230 212 235 231 220 221 232 206 210 86 240 208 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 225 145 222 223 148 146 89</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_erase_all_unsecure.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 309 328</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133 118 147 229 230 212 235 231 220 221 232 206 210 86 240 208 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 225 145 222 223 256 148 146 89</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 133 118 147 229 230 212 235 231 220 221 232 206 210 86 240 208 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 225 145 222 223 148 146 89</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_get_property.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 271 310</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133 118 147 229 230 212 235 231 220 221 232 206 210 86 240 208 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 225 145 222 223 256 148 146 89</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 133 118 147 229 230 212 235 231 220 221 232 206 210 86 240 208 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 225 145 222 223 148 146 89</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_get_security_state.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 295 330</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133 118 147 229 230 212 235 231 220 221 232 206 210 86 240 208 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 225 145 222 223 256 148 146 89</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 133 118 147 229 230 212 235 231 220 221 232 206 210 86 240 208 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 225 145 222 223 148 146 89</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_init.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65 311</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133 118 147 229 230 212 235 231 220 221 232 206 210 86 240 208 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 225 145 222 223 256 148 146 89 238</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 133 118 147 229 230 212 235 231 220 221 232 206 210 86 240 208 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 225 145 222 223 148 146 89 238</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_is_protected.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 47 312</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133 118 147 229 230 212 235 231 220 221 232 206 210 86 240 208 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 225 145 222 223 256 148 146 89</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 133 118 147 229 230 212 235 231 220 221 232 206 210 86 240 208 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 225 145 222 223 148 146 89</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_program.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 278 313</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133 118 147 229 230 212 235 231 220 221 232 206 210 86 240 208 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 225 145 222 223 256 148 146 89</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 133 118 147 229 230 212 235 231 220 221 232 206 210 86 240 208 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 225 145 222 223 148 146 89</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_security_bypass.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 301 314</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133 118 147 229 230 212 235 231 220 221 232 206 210 86 240 208 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 225 145 222 223 256 148 146 89</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 133 118 147 229 230 212 235 231 220 221 232 206 210 86 240 208 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 225 145 222 223 148 146 89</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_verify_erase.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 315</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133 118 147 229 230 212 235 231 220 221 232 206 210 86 240 208 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 225 145 222 223 256 148 146 89</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 133 118 147 229 230 212 235 231 220 221 232 206 210 86 240 208 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 225 145 222 223 148 146 89</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_verify_erase_all.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57 316</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133 118 147 229 230 212 235 231 220 221 232 206 210 86 240 208 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 225 145 222 223 256 148 146 89</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 133 118 147 229 230 212 235 231 220 221 232 206 210 86 240 208 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 225 145 222 223 148 146 89</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\flash\src\flash_verify_program.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 270 318</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133 118 147 229 230 212 235 231 220 221 232 206 210 86 240 208 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 225 145 222 223 256 148 146 89</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 133 118 147 229 230 212 235 231 220 221 232 206 210 86 240 208 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 225 145 222 223 148 146 89</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\i2c\src\fsl_i2c_slave_driver.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 262 322</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146 222 230 212 235 231 220 221 232 81 223 256 148 229 225 147 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 135 145 89 213</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 222 230 212 235 231 220 221 232 81 223 148 229 225 147 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 135 145 89 213</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\microseconds\src\microseconds_sysclk.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 62 325</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146 222 230 212 235 231 220 221 232 81 223 256 148 229 225 147 137 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 222 230 212 235 231 220 221 232 81 223 148 229 225 147 137 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\spi\src\fsl_spi_slave_driver.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 59 327</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146 222 230 212 235 231 220 221 232 81 223 256 148 229 225 147 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 139 140 74 73 213 145 89</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 222 230 212 235 231 220 221 232 81 223 148 229 225 147 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 139 140 74 73 213 145 89</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\uart\uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 289 329</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146 222 230 212 235 231 220 221 232 81 223 256 148 229 225 147 142 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 222 230 212 235 231 220 221 232 81 223 148 229 225 147 142 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\drivers\uart\uart0.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68 326</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146 222 230 212 235 231 220 221 232 81 223 256 148 229 225 147 144 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 222 230 212 235 231 220 221 232 81 223 148 229 225 147 144 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\memory\src\device_memory.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 287 331</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83 230 212 235 231 220 221 232 81 215 150 158 229 145 222 223 256 148 225 147 146 89 155</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 83 230 212 235 231 220 221 232 81 215 150 158 229 145 222 223 148 225 147 146 89 155</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\memory\src\flash_memory.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 281 333</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 145 222 230 212 235 231 220 221 232 81 223 256 148 229 225 147 146 89 158 257 154 118 206 210 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 110 112 160 109 163 201 213 83 215</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 145 222 230 212 235 231 220 221 232 81 223 148 229 225 147 146 89 158 257 154 118 206 210 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 110 112 160 109 163 201 213 83 215</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\memory\src\memory.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69 332</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 145 222 230 212 235 231 220 221 232 81 223 256 148 229 225 147 146 89 110 112 158 160 109 163 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 118 206 210 257 213 79</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 145 222 230 212 235 231 220 221 232 81 223 148 229 225 147 146 89 110 112 158 160 109 163 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 118 206 210 257 213 79</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\memory\src\normal_memory.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 51 334</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83 230 212 235 231 220 221 232 81 215 154 158 229 145 222 223 256 148 225 147 146 89 155</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 83 230 212 235 231 220 221 232 81 215 154 158 229 145 222 223 148 225 147 146 89 155</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\memory\src\pattern_fill.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 351</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\memory\src\sram_init_cm0plus.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 266 336</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 145 222 230 212 235 231 220 221 232 81 223 256 148 229 225 147 146 89 110 112 158 160 109 163 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 118 206 210 213 79</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 145 222 230 212 235 231 220 221 232 81 223 148 229 225 147 146 89 110 112 158 160 109 163 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 118 206 210 213 79</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\packet\src\serial_packet.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 272 337</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83 230 212 235 231 220 221 232 81 215 213 145 222 223 256 148 229 225 147 146 89 110 112 158 160 109 163 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 118 206 210 108 107 106 105 113 161 116 137</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 83 230 212 235 231 220 221 232 81 215 213 145 222 223 148 229 225 147 146 89 110 112 158 160 109 163 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 118 206 210 108 107 106 105 113 161 116 137</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\property\src\property.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61 335</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 145 222 230 212 235 231 220 221 232 81 223 256 148 229 225 147 146 89 163 160 112 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 158 161 110 109 118 206 210 107 213 83 215 204</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 145 222 230 212 235 231 220 221 232 81 223 148 229 225 147 146 89 163 160 112 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 158 161 110 109 118 206 210 107 213 83 215 204</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\sbloader\src\chunking_gasket.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 268 339</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 145 222 230 212 235 231 220 221 232 81 223 256 148 229 225 147 146 89 167 168 213</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 145 222 230 212 235 231 220 221 232 81 223 148 229 225 147 146 89 167 168 213</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\sbloader\src\itf_rom.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 288 340</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168 145 222 230 212 235 231 220 221 232 81 223 256 148 229 225 147 146 89 171 169 117 167</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 168 145 222 230 212 235 231 220 221 232 81 223 148 229 225 147 146 89 171 169 117 167</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\sbloader\src\loader.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 280 338</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 229 230 212 235 231 220 221 232 222 81 223 83 215 145 256 148 225 147 146 89 171 169 168 117 110 112 158 160 109 163 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 118 206 210 108 107 106 105 113 170</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 229 230 212 235 231 220 221 232 222 81 223 83 215 145 148 225 147 146 89 171 169 168 117 110 112 158 160 109 163 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 118 206 210 108 107 106 105 113 170</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\startup\boot.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 353</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\startup\crt0.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 354</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\startup\startup.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66 341</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146 222 230 212 235 231 220 221 232 81 223 256 148 229 225 147 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 222 230 212 235 231 220 221 232 81 223 148 229 225 147 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\startup\MKL25Z4\startup_MKL25Z4.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 356</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\startup\MKL25Z4\system_MKL25Z4.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 258 343</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 229 230 212 235 231 220 221 232 86 240 208 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 229 230 212 235 231 220 221 232 86 240 208 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\usb_device\class\usb_hid.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 344</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 178 185 84 230 212 235 231 220 221 232 81 197 182 191 180 146 222 223 256 148 229 225 147 179 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 198 112</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178 185 84 230 212 235 231 220 221 232 81 197 182 191 180 146 222 223 148 229 225 147 179 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 198 112</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\usb_device\common\usb_class.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 53 342</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 182 185 84 230 212 235 231 220 221 232 81 191 180 146 222 223 256 148 229 225 147 179 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 198 112 184 197</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 182 185 84 230 212 235 231 220 221 232 81 191 180 146 222 223 148 229 225 147 179 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 198 112 184 197</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\usb_device\common\usb_framework.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 269 347</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 185 84 230 212 235 231 220 221 232 81 182 191 180 146 222 223 256 148 229 225 147 179 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 198 112 184 197 83 215</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 185 84 230 212 235 231 220 221 232 81 182 191 180 146 222 223 148 229 225 147 179 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 198 112 184 197 83 215</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\usb_device\driver\kinetis\usb_dci_kinetis.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 290 345</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83 230 212 235 231 220 221 232 81 215 190 185 84 191 180 146 222 223 256 148 229 225 147 179 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 198 189 187 186 182 112</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 83 230 212 235 231 220 221 232 81 215 190 185 84 191 180 146 222 223 148 229 225 147 179 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 198 189 187 186 182 112</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\usb_device\driver\usb_driver.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 55 346</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 191 185 84 230 212 235 231 220 221 232 81 180 146 222 223 256 148 229 225 147 179 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 198 190 195</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 191 185 84 230 212 235 231 220 221 232 81 180 146 222 223 148 229 225 147 179 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 198 190 195</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\usb_device\driver\usbevent.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 285 349</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 194 185 84 230 212 235 231 220 221 232 81 191 180 146 222 223 256 148 229 225 147 179 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 198</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 194 185 84 230 212 235 231 220 221 232 81 191 180 146 222 223 148 229 225 147 179 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 198</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\usb_device\hid\usb_descriptor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 54 350</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 179 146 222 230 212 235 231 220 221 232 81 223 256 148 229 225 147 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 185 84 182 191 180 198 112 197 199 160 163 145 89 110 158 109 118 206 210</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 179 146 222 230 212 235 231 220 221 232 81 223 148 229 225 147 86 240 208 218 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 185 84 182 191 180 198 112 197 199 160 163 145 89 110 158 109 118 206 210</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\utilities\src\fsl_rtos_abstraction.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 58 348</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 213 230 212 235 231 220 221 232 201 229 225 86 240 208 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 213 230 212 235 231 220 221 232 201 229 225 86 240 208 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\src\utilities\src\ring_buffer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 260 352</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 213 230 212 235 231 220 221 232 203 229 225 86 240 208 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 201</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 213 230 212 235 231 220 221 232 203 229 225 86 240 208 218 81 239 226 236 207 224 205 233 209 219 214 227 249 244 241 82 250 259 216 242 248 254 76 228 251 253 75 217 243 211 252 77 247 255 237 245 234 246 201</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+

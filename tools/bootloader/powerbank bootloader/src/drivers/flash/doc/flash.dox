@@ -1,0 +1,6 @@
+/*!
+
+@defgroup flash Flash
+@brief Internal fash memory driver
+
+ */

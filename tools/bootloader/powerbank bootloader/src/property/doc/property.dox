@@ -1,0 +1,7 @@
+/*!
+
+@defgroup property Property Store
+@ingroup bootloader
+@brief Properties of the bootloader.
+
+ */

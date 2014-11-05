@@ -1,0 +1,15 @@
+/*!
+
+@defgroup sbloader SB Loader
+@ingroup bootloader
+@brief SB file loader state machine.
+
+@defgroup chunking_gasket Chunking Gasket
+@ingroup sbloader
+@brief Gasket to interface SB loader to data packets.
+
+@defgroup sb_file_format SB File Format
+@ingroup sbloader
+@brief SB file format definitions.
+
+ */
