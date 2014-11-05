@@ -1,0 +1,6 @@
+r
+h
+erase
+loadbin ..\images\powerbank_bootloader.bin 0x0
+q
+
