@@ -81,6 +81,8 @@ void shutdown_cleanup(bool isShutdown)
 
         // De-initialize hardware such as disabling port clock gate
         deinit_hardware();
+        // Turn on interrupts.
+        lock_release();
     }
 
     // Memory barriers for good measure.

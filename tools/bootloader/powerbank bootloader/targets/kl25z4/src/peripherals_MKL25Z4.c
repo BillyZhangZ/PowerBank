@@ -42,6 +42,7 @@ extern void spi_pinmux_config(unsigned int instance, pinmux_type_t pinmux);
 
 //! @brief Peripheral array for KL25Z4.
 const peripheral_descriptor_t g_peripherals[] = {
+#if 0
     // UART0
     {
         .typeMask = kPeripheralType_UART,
@@ -69,6 +70,7 @@ const peripheral_descriptor_t g_peripherals[] = {
         .byteInterface = &g_spiByteInterface,
         .packetInterface = &g_framingPacketInterface
     },
+#endif
 #if !BL_MIN_PROFILE
     // USB HID
     {
