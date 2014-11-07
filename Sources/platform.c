@@ -54,8 +54,13 @@ uint16_t get_value_history(uint8_t ch)
 		return (value/BATT_VALUE_NUM);
 	}
 	else{
-			for(i = 0;i < CURR_VALUE_NUM; i++) value += curr_history_value[i];
-	return (value/CURR_VALUE_NUM);
+			for(i = 0;i < CURR_VALUE_NUM; i++) 
+			{
+				//value += curr_history_value[i];
+				if(value < curr_history_value[i]) value = curr_history_value[i];
+			}
+			//return (value/CURR_VALUE_NUM);
+			return value;
 	}
 
 }
@@ -114,6 +119,8 @@ void start_boost()
 	
 	/*detect 5v to USB host flag,nBOOST(PTC6), wait to low*/
 	while((GPIOC_PDIR & GPIO_PDIR_PDI(1<<6)));
+	
+	 
 	//delay_busy(1000);
 	//__asm("bkpt");
 }
@@ -436,7 +443,7 @@ void power_bank_state_machine(void)
 			if(gevent == LOW_POWER_TIMER)
 			{
 				//debug_printf(("%d second\n", i++));
-#if 1
+#if 0
 				led_toggle(1);
 				 
 				 

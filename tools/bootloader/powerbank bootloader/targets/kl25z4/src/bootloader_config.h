@@ -43,7 +43,7 @@
 #endif
 
 #if !defined(BL_MIN_PROFILE)
-#define BL_MIN_PROFILE (0)
+#define BL_MIN_PROFILE (1)
 #endif
 
 // Bootloader peripheral detection default timeout in milliseconds
