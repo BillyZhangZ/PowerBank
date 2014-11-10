@@ -14,4 +14,5 @@ void led_deinit(void);
 void led_on(uint8_t);
 void led_off(uint8_t);
 void led_toggle(uint8_t num);
+void led_ctrl(int led1, int led2, int led3, int led4);
 #endif /* LED_H_ */

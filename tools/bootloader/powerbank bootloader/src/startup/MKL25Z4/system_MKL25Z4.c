@@ -150,7 +150,7 @@ void PORTD_IRQHandler()
 
 void SystemInit (void) {
 #ifdef BOOT_KL26_CUSTOM_BOARD
-  int i = 0;
+   int i = 0;
    app_t app = (app_t)*((unsigned int *)(0x8000+4));
 #endif
 #if (DISABLE_WDOG)
@@ -161,8 +161,9 @@ void SystemInit (void) {
 
 
 #ifdef BOOT_KL26_CUSTOM_BOARD
+
     __asm("CPSIE i");
-  /*PTC5*/
+    /*PTC5*/
     SIM_SCGC5 = SIM_SCGC5_PORTC_MASK;
     GPIOC_PDDR &= ~GPIO_PDDR_PDD(1<<5);
     PORTC_PCR5 |= PORT_PCR_MUX(1)| PORT_PCR_PE_MASK |PORT_PCR_IRQC(0x0a)  | PORT_PCR_PS_MASK;
@@ -180,8 +181,8 @@ void SystemInit (void) {
     //never come back
     if(i == BOOT_DELAY) app();
     __asm("CPSID i"); 
-  
 #endif
+
     
 #if (CLOCK_SETUP == 0)
   /* SIM->CLKDIV1: OUTDIV1=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,OUTDIV4=2,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0 */

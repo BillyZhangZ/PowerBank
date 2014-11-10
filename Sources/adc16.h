@@ -208,5 +208,5 @@ uint8_t   CLM0;
 
 void adc_init(void);
 uint16_t adc_read(uint8_t channel);  // read an ADC channel 
-uint16_t adc_multi_read(uint8_t channel, uint16_t times);
+uint16_t adc_read_save(uint8_t channel);
 #endif /* __ADC16_H__ */

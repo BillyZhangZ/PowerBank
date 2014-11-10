@@ -54,15 +54,6 @@ int main(void)
 	 
 	init_hardware();
 	
-	led_toggle(1);
-	delay_busy(500);
-	led_toggle(1);
-	delay_busy(500);
-	led_toggle(1);
-	delay_busy(500);
-	led_toggle(1);
-	delay_busy(500);
-
 	/*Power bank state machine*/
 	power_bank_state_machine();
 	

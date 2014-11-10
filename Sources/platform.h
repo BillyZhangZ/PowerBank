@@ -13,10 +13,13 @@
 #define ADC_BATT_CHN 8
 #define ADC_CURR_CHN 9
 
-#define ADC_VALUE_4V (3620 +500)
-#define ADC_VALUE_3P7V (3350 +500)
-#define ADC_VALUE_3P4V (3000 +500)
-#define ADC_VALUE_3V (2800 +500)
+#define ADC_VALUE_4V (3620)
+#define ADC_VALUE_3P7V (3350 )
+#define ADC_VALUE_3P4V (3230)
+#define ADC_VALUE_3V (2800)
+
+#define CLAMP_VALUE 30
+
 #define NO_LOAD_VALUE 10
 
 enum system_state{IDLE,CHARGING,BOOSTING,CHARGE_BOOST};

@@ -32,7 +32,7 @@ void llwu_init(void)
 	         | (uint8_t)(LLWU_ME_WUME0_MASK)
 			);
  
-	  /*charger plug in-out*/
+	  /*nACOK, charger plug in-out*/
 	  LLWU_PE4 = (uint8_t)((LLWU_PE4 & (uint8_t)~(uint8_t)(
 			  LLWU_PE4_WUPE12_MASK |
 			  LLWU_PE4_WUPE13_MASK |

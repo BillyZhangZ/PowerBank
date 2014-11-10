@@ -133,26 +133,12 @@ uint16_t adc_read(uint8_t channel)
    return ADC0_RA;
 }
 
-uint16_t adc_multi_read(uint8_t channel, uint16_t times)
+uint16_t adc_read_save(uint8_t channel)
 {
-	#if 0
-		unsigned int sample_cnt = times, sample_value =0;
-
-		while(sample_cnt--)
-		{
-			sample_value += adc_read(channel);
-			delay_busy(30);
-		}
-		
-		sample_value = sample_value / times;
-		return (uint16_t)sample_value;
-#else
 		uint16_t sample_value = adc_read(channel);
 		 
 		update_value_history(channel, sample_value);
-		return get_value_history(channel);		 
-#endif
-		
+		return get_value_history(channel);		 	
 }
 /**   adc0_isr,
  * \brief    reads the results of the Adc conversion

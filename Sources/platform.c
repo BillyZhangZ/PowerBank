@@ -12,7 +12,7 @@
 #include"watchdog.h"
 void do_nothing(const char * _EWL_RESTRICT format, ...)
 {
-	//delay_busy(10);
+	 
 }
 //#define DEBUG
 #ifdef DEBUG
@@ -31,17 +31,22 @@ static uint16_t batt_history_value[BATT_VALUE_NUM];
 static uint16_t batt_index = 0;
 static uint16_t curr_history_value[CURR_VALUE_NUM];
 static uint16_t curr_index = 0;
+
+  
 void statistic_init()
 {
 	int i = 0;
-	for(i = 0;i < BATT_VALUE_NUM; i++) batt_history_value[i] = ADC_VALUE_4V;
-	for(i = 0;i < CURR_VALUE_NUM; i++) curr_history_value[i] = NO_LOAD_VALUE;
+	for(i = 0;i < BATT_VALUE_NUM; i++) 
+	{
+		batt_history_value[i] = adc_read(ADC_BATT_CHN);
+	}
+	for(i = 0;i < CURR_VALUE_NUM; i++) curr_history_value[i] = adc_read(ADC_CURR_CHN);
 }
 void statistic_curr_init()
 {
 	int i = 0;
 	 
-	for(i = 0;i < CURR_VALUE_NUM; i++) curr_history_value[i] = NO_LOAD_VALUE;
+	for(i = 0;i < CURR_VALUE_NUM; i++) curr_history_value[i] = adc_read(ADC_CURR_CHN);
 }
 
 uint16_t get_value_history(uint8_t ch)
@@ -86,26 +91,22 @@ void update_value_history(uint8_t ch, uint16_t value)
  * */
 unsigned char power_check()
 {
-#if 1
-	uint16_t value = adc_multi_read(ADC_BATT_CHN, 20);
+
+	uint16_t value = adc_read_save(ADC_BATT_CHN);
 	if( value < ADC_VALUE_3V)
 	{
 		debug_printf((" battery low than 3V %u\n",value));
 		return 0;
 	}
 	else 
-#endif
+
 		return 1;
 }
 void start_boost()
 {
-	 
-#if 0
-	/*EMU_CB high*/
-	GPIOC_PDOR |= GPIO_PDOR_PDO(1<<1);
-#endif
 	/*set mode_sel(PTE0) high*/
 	GPIOE_PDOR |= GPIO_PDOR_PDO(0x01);
+#if 0
 	watchdog_reset(); 
 	delay_busy(400);
 	watchdog_reset(); 
@@ -113,6 +114,7 @@ void start_boost()
 	watchdog_reset(); 
 	delay_busy(400);
 	watchdog_reset(); 
+#endif
 	/*sleep high*/
 	GPIOD_PDOR |= GPIO_PDOR_PDO(0x80);
 	 
@@ -120,7 +122,7 @@ void start_boost()
 	/*detect 5v to USB host flag,nBOOST(PTC6), wait to low*/
 	while((GPIOC_PDIR & GPIO_PDIR_PDI(1<<6)));
 	
-	 
+	
 	//delay_busy(1000);
 	//__asm("bkpt");
 }
@@ -144,12 +146,11 @@ void stop_boost()
  */
 uint8_t get_battery_level()
 {
-	uint16_t battery_value = 0, sample_cnt = 10;
-	battery_value = adc_multi_read(ADC_BATT_CHN, sample_cnt);
-#if 0
+	uint16_t battery_value = 0;
+	battery_value = adc_read_save(ADC_BATT_CHN);
+
 	debug_printf(("batt %u\n",battery_value));
-	 
-#endif
+
 	if(battery_value > ADC_VALUE_4V)
 	{
 		return 5;
@@ -178,59 +179,32 @@ uint8_t disp_batt_level_charge(void)
 	switch(get_battery_level())
 	{
 	case 1:
-		if(cnt){
-		led_off(1);
-		led_off(2);
-		led_off(3);
-		led_off(4);
-		}
-	else{
-		led_on(1);
-		led_on(2);
-		led_on(3);
-		led_on(4);
-	}
-		break;
 	case 2:
 		if(cnt)
-			led_off(1);
+			led_ctrl(0,0,0,0);
 		else
-			led_on(1);
-		led_off(2);
-		led_off(3);
-		led_off(4);
+			led_ctrl(1,0,0,0);
 		break;
 	case 3:
-		led_on(1);
 		if(cnt)
-			led_off(2);
+			led_ctrl(1,0,0,0);
 		else
-			led_on(2);
-		led_off(3);
-		led_off(4);
+			led_ctrl(1,1,0,0);
 		break;
 	case 4:
-		led_on(1);
-		led_on(2);
 		if(cnt)
-			led_off(3);
+			led_ctrl(1,1,0,0);
 		else
-			led_on(3);
-	
-		led_off(4);
+			led_ctrl(1,1,1,0);
 		break;
 	case 5:
-		led_on(1);
-		led_on(2);
-		led_on(3);
 		if(cnt)
-			led_off(4);
+			led_ctrl(1,1,1,0);
 		else
-			led_on(4);
+			led_ctrl(1,1,1,1);
 		break;
 	default:
-		led_on(1);led_on(2);
-		led_on(3);led_on(4);
+			led_ctrl(1,1,1,1);	
 		return 1;
 		break;
 	}
@@ -245,53 +219,36 @@ uint8_t disp_batt_level_charge(void)
  */
 uint8_t disp_batt_level_discharge(void)
 {
-	static uint8_t cnt = 0;
+	uint16_t battery_value = 0, level = 0, level_value[5] = {ADC_VALUE_3V,ADC_VALUE_3P4V,ADC_VALUE_3P7V,ADC_VALUE_4V};
+	//set initialization of 5 to let it update last_level first
+	static int last_level = 5;
+	battery_value = adc_read_save(ADC_BATT_CHN);
+	level = get_battery_level();
+	if(level > last_level)  
+	{
+		if(battery_value < level_value[level-1] + CLAMP_VALUE)
+			level--;
+	}
+	last_level = level;
 	 
-	int i = 4;
-	switch(get_battery_level())
+	switch(level)
 	{
 	case 1:
-		led_on(1);led_on(2);
-		led_on(3);led_on(4);
-		i = 100000; while(i--);
-		led_off(1);led_off(2);
-		led_off(3);led_off(4);
-		i = 100000; while(i--);	
-					
-		led_on(1);led_on(2);
-		led_on(3);led_on(4);
-		i = 100000; while(i--);
-									
-		led_off(1);led_off(2);
-		led_off(3);led_off(4);
-	
-		
+		low_power_alert();
 		//low battery detected
 		return 1;
 		break;
 	case 2:
-		led_on(1);
-		led_off(2);
-		led_off(3);
-		led_off(4);
+		led_ctrl(1,0,0,0);
 		break;
 	case 3:
-		led_on(1);
-		led_on(2);
-		led_off(3);
-		led_off(4);
+		led_ctrl(1,1,0,0);
 		break;
 	case 4:
-		led_on(1);
-		led_on(2);
-		led_on(3);
-		led_off(4);
+		led_ctrl(1,1,1,0);
 		break;
 	case 5:
-		led_on(1);
-		led_on(2);
-		led_on(3);
-		led_on(4);
+		led_ctrl(1,1,1,1);
 		break;
 	default:
 		break;
@@ -309,32 +266,19 @@ void disp_batt_level_switch(void)
 	switch(get_battery_level())
 	{
 	case 1:
-		led_off(1);led_off(2);
-		led_off(3);led_off(4);
+		led_ctrl(0,0,0,0);
 		break;
 	case 2:
-		led_on(1);
-		led_off(2);
-		led_off(3);
-		led_off(4);
+		led_ctrl(1,0,0,0);
 		break;
 	case 3:
-		led_on(1);
-		led_on(2);
-		led_off(3);
-		led_off(4);
+		led_ctrl(1,1,0,0);
 		break;
 	case 4:
-		led_on(1);
-		led_on(2);
-		led_on(3);
-		led_off(4);
+		led_ctrl(1,1,1,0);
 		break;
 	case 5:
-		led_on(1);
-		led_on(2);
-		led_on(3);
-		led_on(4);
+		led_ctrl(1,1,1,1);
 		break;
 	default:
 		break;
@@ -348,7 +292,6 @@ void disp_batt_level_switch(void)
 uint8_t power_bank_full()
 {
 	//pin detect
-	
 	if((GPIOD_PDIR & GPIO_PDIR_PDI(1<<4)) == 0/*nACOK low*/ && (GPIOD_PDIR & GPIO_PDIR_PDI(1<<6))/*nCHG high*/)
 	{
 		//full
@@ -383,8 +326,8 @@ uint8_t charger_plugout()
  */
 uint8_t device_plug_out()
 {
-#if 1
-	uint16_t value = adc_multi_read(ADC_CURR_CHN, 20);
+ 
+	uint16_t value = adc_read_save(ADC_CURR_CHN);
 	if( value < NO_LOAD_VALUE)
 	{
 		debug_printf((" low boost current %u\n",value));
@@ -392,48 +335,48 @@ uint8_t device_plug_out()
 	}
 	else 
 		return 0;
-#elif 0
-	int i = 0;
-	while(1)
-	{
-		debug_printf(("cur %u\t",adc_read(ADC_CURR_CHN)));
-		
-		if(adc_read(ADC_CURR_CHN) < NO_LOAD_VALUE) i++;
-		else return 0;
-		if(i == 40) return 1;
-		delay_busy(10);
-	}
-	
-	return 0;
-#else
-	static uint16_t last_curr_value = 0;
-	uint16_t curr_value = adc_read(ADC_CURR_CHN);
-	
-	if( (curr_value < NO_LOAD_VALUE) && last_curr_value < NO_LOAD_VALUE)
-	{
-		debug_printf((" low boost current %u\n",curr_value));
-		return 1;
-	}
-	else 
-		return 0;
-#endif
 	
 }
+
+void low_power_alert()
+{
+	int i = 8;
+	while(i--)
+	{
+		delay_busy(400);
+		led_toggle(1);led_toggle(2);led_toggle(3);led_toggle(4);
+	}
+	led_ctrl(0,0,0,0);					
+}
+
+void start_indicate()
+{
+	led_ctrl(1,0,0,0);
+	delay_busy(1000);
+	led_ctrl(1,1,0,0);
+	delay_busy(1000);
+	led_ctrl(1,1,1,0);
+	delay_busy(1000);
+	led_ctrl(1,1,1,1);
+	delay_busy(1000);
+	led_ctrl(0,0,0,0);
+}
+
 void power_bank_state_machine(void)
 {
+	char off_the_led = 0;
+	start_indicate();
 	//watchdog_init();
-	 
 	debug_printf(("go into idle\n"));
 	for(;;){
 		/*Sleep and wait for events: buttons, plug-ins, low power timer,state updated in their ISR*/
 		/*this time must less than watch dog timeout, 1024ms*/
 		
-
 		lptimer_init(500);
 		
 		enter_lls();
 
-	//	watchdog_reset(); 
+		//watchdog_reset(); 
 		 
 		//debug_printf(("state %d\n", gcur_state));
 		switch(gcur_state)
@@ -443,38 +386,28 @@ void power_bank_state_machine(void)
 			if(gevent == LOW_POWER_TIMER)
 			{
 				//debug_printf(("%d second\n", i++));
-#if 0
-				led_toggle(1);
-				 
-				 
-#else
-				led_off(1);
-#endif
-				led_off(2);
-				led_off(3);
-				led_off(4);
+				if((off_the_led && (--off_the_led) == 0))
+				{
+					led_off(1);
+					led_off(2);
+					led_off(3);
+					led_off(4);
+				}
+				
 			}
 			else if(gevent == SWITCH_PRESSED)
 			{
+#ifdef SWITCH_OPEN_BOOST
 				if(power_check()) start_boost();
 				else
 				{
-					//blink and then sleep
-					led_on(1);
-					delay_busy(50);
-					led_toggle(1);
-					delay_busy(1000);
-					led_toggle(1);
-					delay_busy(50);
-					led_toggle(1);
-					delay_busy(1000);
-					led_toggle(1);
-					delay_busy(50);
-					led_toggle(1);
+					low_power_alert();
 					break;
 				}
+#endif
 				//indicate power 
 				disp_batt_level_switch();
+				off_the_led = 4;
 			}
 			else if(gevent == CHARGER_PLUGIN)
 			{
@@ -492,17 +425,7 @@ void power_bank_state_machine(void)
 				else
 				{
 					//blink and then sleep
-					led_on(1);
-					delay_busy(50);
-					led_toggle(1);
-					delay_busy(1000);
-					led_toggle(1);
-					delay_busy(50);
-					led_toggle(1);
-					delay_busy(1000);
-					led_toggle(1);
-					delay_busy(50);
-					led_toggle(1);
+					low_power_alert();
 					break;
 				}
 				mask_switch();
@@ -519,23 +442,22 @@ void power_bank_state_machine(void)
 				//detect if power bank is full
 				if(power_bank_full())
 				{
-					debug_printf(("power bank full\n"));
-					debug_printf(("go into idle\n"));
-					glast_state = gcur_state;
-					gcur_state = IDLE;
-					unmask_switch();
-					//led will be turn off in IDLE
+					//do nothing here
+					led_ctrl(1,1,1,1);
 					break;
 				}
-				
+				else disp_batt_level_charge();
+					
 				 if(charger_plugout())
 				 {
-					 debug_printf(("charger plugged out go into idle\n"));
+					debug_printf(("charger plugged out go into idle\n"));
 					glast_state = gcur_state;
 					gcur_state = IDLE;
 					unmask_switch();
+					led_ctrl(0,0,0,0);
+					break;
 				 }
-				disp_batt_level_charge();
+				
 			}
 			else if((gevent == CHARGER_PLUGOUT))
 			{
@@ -543,6 +465,7 @@ void power_bank_state_machine(void)
 				glast_state = gcur_state;
 				gcur_state = IDLE;
 				unmask_switch();
+				led_ctrl(0,0,0,0);
 			}
 			else if(gevent == DEVICE_PLUGIN)
 			{
@@ -551,17 +474,7 @@ void power_bank_state_machine(void)
 				else
 				{
 					//blink and then sleep
-					led_on(1);
-					delay_busy(50);
-					led_toggle(1);
-					delay_busy(1000);
-					led_toggle(1);
-					delay_busy(50);
-					led_toggle(1);
-					delay_busy(1000);
-					led_toggle(1);
-					delay_busy(50);
-					led_toggle(1);
+					low_power_alert();
 					break;
 				}
 				debug_printf(("go into charge and boost\n"));
@@ -584,6 +497,7 @@ void power_bank_state_machine(void)
 					glast_state = gcur_state;
 					gcur_state = IDLE;
 					unmask_switch();
+					led_ctrl(0,0,0,0);
 					break;
 				}
 			
@@ -593,17 +507,7 @@ void power_bank_state_machine(void)
 					stop_boost();
 					debug_printf(("power bank battery low\n"));
 					debug_printf(("go into idle\n"));
-					led_on(1);
-					delay_busy(100);
-					led_toggle(1);
-					delay_busy(100);
-					led_toggle(1);
-					delay_busy(100);
-					led_toggle(1);
-					delay_busy(100);
-					led_toggle(1);
-					delay_busy(100);
-					led_toggle(1);
+				 
 					glast_state = gcur_state;
 					gcur_state = IDLE;
 					unmask_switch();
@@ -642,6 +546,7 @@ void power_bank_state_machine(void)
 					glast_state = gcur_state;
 					gcur_state = CHARGING;
 					unmask_switch();
+					led_ctrl(0,0,0,0);
 					break;
 				}
 				disp_batt_level_charge();
