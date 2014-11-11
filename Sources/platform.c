@@ -103,10 +103,10 @@ unsigned char power_check()
 		return 1;
 }
 void start_boost()
-{
+{	
 	/*set mode_sel(PTE0) high*/
 	GPIOE_PDOR |= GPIO_PDOR_PDO(0x01);
-#if 0
+	/*about 1s~2s delay is a must here to let it fully output*/
 	watchdog_reset(); 
 	delay_busy(400);
 	watchdog_reset(); 
@@ -114,7 +114,7 @@ void start_boost()
 	watchdog_reset(); 
 	delay_busy(400);
 	watchdog_reset(); 
-#endif
+
 	/*sleep high*/
 	GPIOD_PDOR |= GPIO_PDOR_PDO(0x80);
 	 
@@ -122,7 +122,7 @@ void start_boost()
 	/*detect 5v to USB host flag,nBOOST(PTC6), wait to low*/
 	while((GPIOC_PDIR & GPIO_PDIR_PDI(1<<6)));
 	
-	
+	 
 	//delay_busy(1000);
 	//__asm("bkpt");
 }
@@ -219,19 +219,22 @@ uint8_t disp_batt_level_charge(void)
  */
 uint8_t disp_batt_level_discharge(void)
 {
+	#if 0
 	uint16_t battery_value = 0, level = 0, level_value[5] = {ADC_VALUE_3V,ADC_VALUE_3P4V,ADC_VALUE_3P7V,ADC_VALUE_4V};
 	//set initialization of 5 to let it update last_level first
 	static int last_level = 5;
 	battery_value = adc_read_save(ADC_BATT_CHN);
 	level = get_battery_level();
+
 	if(level > last_level)  
 	{
 		if(battery_value < level_value[level-1] + CLAMP_VALUE)
 			level--;
 	}
 	last_level = level;
-	 
-	switch(level)
+#endif
+	
+	switch(get_battery_level())
 	{
 	case 1:
 		low_power_alert();
@@ -351,6 +354,7 @@ void low_power_alert()
 
 void start_indicate()
 {
+	led_ctrl(0,0,0,0);
 	led_ctrl(1,0,0,0);
 	delay_busy(1000);
 	led_ctrl(1,1,0,0);
@@ -362,6 +366,19 @@ void start_indicate()
 	led_ctrl(0,0,0,0);
 }
 
+void device_plugout_indicate()
+{
+	led_ctrl(0,0,0,0);
+	led_ctrl(1,0,0,1);
+	delay_busy(1000);
+	led_ctrl(0,1,1,0);
+	delay_busy(1000);
+	led_ctrl(1,0,0,1);
+	delay_busy(1000);
+	led_ctrl(0,1,1,0);
+	delay_busy(1000);
+	led_ctrl(0,0,0,0);
+}
 void power_bank_state_machine(void)
 {
 	char off_the_led = 0;
@@ -397,14 +414,6 @@ void power_bank_state_machine(void)
 			}
 			else if(gevent == SWITCH_PRESSED)
 			{
-#ifdef SWITCH_OPEN_BOOST
-				if(power_check()) start_boost();
-				else
-				{
-					low_power_alert();
-					break;
-				}
-#endif
 				//indicate power 
 				disp_batt_level_switch();
 				off_the_led = 4;
@@ -420,10 +429,11 @@ void power_bank_state_machine(void)
 			}
 			else if(gevent == DEVICE_PLUGIN)
 			{
-				
+				 	
 				if(power_check()) start_boost();
 				else
 				{
+					led_ctrl(1,1,1,0);		
 					//blink and then sleep
 					low_power_alert();
 					break;
@@ -497,12 +507,13 @@ void power_bank_state_machine(void)
 					glast_state = gcur_state;
 					gcur_state = IDLE;
 					unmask_switch();
-					led_ctrl(0,0,0,0);
+					device_plugout_indicate();
 					break;
 				}
 			
 				if(disp_batt_level_discharge() == 1)
 				{
+					
 					//power alert
 					stop_boost();
 					debug_printf(("power bank battery low\n"));
@@ -546,7 +557,7 @@ void power_bank_state_machine(void)
 					glast_state = gcur_state;
 					gcur_state = CHARGING;
 					unmask_switch();
-					led_ctrl(0,0,0,0);
+					device_plugout_indicate();
 					break;
 				}
 				disp_batt_level_charge();
