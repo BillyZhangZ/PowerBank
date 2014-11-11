@@ -219,7 +219,6 @@ uint8_t disp_batt_level_charge(void)
  */
 uint8_t disp_batt_level_discharge(void)
 {
-	#if 0
 	uint16_t battery_value = 0, level = 0, level_value[5] = {ADC_VALUE_3V,ADC_VALUE_3P4V,ADC_VALUE_3P7V,ADC_VALUE_4V};
 	//set initialization of 5 to let it update last_level first
 	static int last_level = 5;
@@ -232,9 +231,8 @@ uint8_t disp_batt_level_discharge(void)
 			level--;
 	}
 	last_level = level;
-#endif
-	
-	switch(get_battery_level())
+
+	switch(level)
 	{
 	case 1:
 		low_power_alert();
@@ -370,13 +368,13 @@ void device_plugout_indicate()
 {
 	led_ctrl(0,0,0,0);
 	led_ctrl(1,0,0,1);
-	delay_busy(1000);
+	delay_busy(500);
 	led_ctrl(0,1,1,0);
-	delay_busy(1000);
+	delay_busy(500);
 	led_ctrl(1,0,0,1);
-	delay_busy(1000);
+	delay_busy(500);
 	led_ctrl(0,1,1,0);
-	delay_busy(1000);
+	delay_busy(500);
 	led_ctrl(0,0,0,0);
 }
 void power_bank_state_machine(void)
