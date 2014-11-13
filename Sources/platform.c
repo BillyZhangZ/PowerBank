@@ -104,6 +104,10 @@ unsigned char power_check()
 }
 void start_boost()
 {	
+#if 0
+	/*PTC1, EMU_CB*/
+	GPIOC_PDOR |= GPIO_PDOR_PDO(1<<1);
+#endif
 	/*set mode_sel(PTE0) high*/
 	GPIOE_PDOR |= GPIO_PDOR_PDO(0x01);
 	/*about 1s~2s delay is a must here to let it fully output*/

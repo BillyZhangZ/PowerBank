@@ -40,7 +40,7 @@ void Default_Handler()
 void __init_hardware()
 {
 	SCB_VTOR = (uint32_t)__vector_table; /* Set the interrupt vector table position */
-	 
+	__asm("cpsie i"); 
 #if 0
 	// Disable the Watchdog because it may reset the core before entering main().
 	SIM_COPC = KINETIS_WDOG_DISABLED_CTRL;
