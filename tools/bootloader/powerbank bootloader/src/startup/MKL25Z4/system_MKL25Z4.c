@@ -97,7 +97,7 @@
 uint32_t SystemCoreClock = DEFAULT_SYSTEM_CLOCK;
 
 #ifdef BOOT_KL26_CUSTOM_BOARD
-#define BOOT_DELAY 1000*5200
+#define BOOT_DELAY 300*5200
 
 #define LOOP_CNT_1MS_24MHZ 2600
 #define LOOP_CNT_1MS_48MHZ LOOP_CNT_1MS_24MHZ*2
@@ -140,11 +140,6 @@ int flag = 0;
  
 typedef void(*app_t)(void);
 
-void PORTD_IRQHandler()
-{
-    PORTC_ISFR |= (1<< 5);
-    flag = 1;
-}
 #endif
 
 
@@ -162,25 +157,27 @@ void SystemInit (void) {
 
 #ifdef BOOT_KL26_CUSTOM_BOARD
 
-    __asm("CPSIE i");
     /*PTC5*/
-    SIM_SCGC5 = SIM_SCGC5_PORTC_MASK;
+    SIM_SCGC5 |= SIM_SCGC5_PORTC_MASK;
     GPIOC_PDDR &= ~GPIO_PDDR_PDD(1<<5);
-    PORTC_PCR5 |= PORT_PCR_MUX(1)| PORT_PCR_PE_MASK |PORT_PCR_IRQC(0x0a)  | PORT_PCR_PS_MASK;
-    NVIC_EnableIRQ(PORTD_IRQn);
+    PORTC_PCR5 |= PORT_PCR_MUX(1)| PORT_PCR_PE_MASK  | PORT_PCR_PS_MASK;
+   
     while(++i < BOOT_DELAY)
     {
-      if(flag == 1)
-      {
-          break;
-      }
+      if((GPIOC_PDIR &(1<<5)) == 0)  continue;
+      else    break;
     }
     
     PORTC_PCR5 = PORT_PCR_MUX(1)| PORT_PCR_PE_MASK   | PORT_PCR_PS_MASK;
-    NVIC_DisableIRQ(PORTD_IRQn);
+    SIM_SCGC5 &= ~SIM_SCGC5_PORTC_MASK;
+   
     //never come back
-    if(i == BOOT_DELAY) app();
-    __asm("CPSID i"); 
+    if(i != BOOT_DELAY) 
+    {
+       __asm("cpsie i");
+      app();
+    }
+
 #endif
 
     

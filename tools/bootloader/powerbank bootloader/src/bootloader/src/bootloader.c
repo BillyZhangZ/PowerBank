@@ -40,7 +40,7 @@
 #include "property/property.h"
 #include "utilities/vector_table_info.h"
 #include "utilities/fsl_rtos_abstraction.h"
-
+#include "led/led.h"
 //! @addtogroup bl_core
 //! @{
 
@@ -372,23 +372,38 @@ static void bootloader_run(void)
     }
 }
 
+void delay(unsigned int ms)
+{
+   unsigned int j = 5000*ms;
+   while(j--);
+}
+void entry_boot_indicate()
+{
+  int i = 3, j = 400;
+
+  led_init();
+  led_ctrl(0,0,0,0);
+  delay(j);
+  while(i--)
+  {
+    delay(j);
+    led_ctrl(1,0,0,0);
+    delay(j);
+    led_ctrl(0,1,0,0);
+    delay(j);
+    led_ctrl(0,0,1,0);
+    delay(j);
+    led_ctrl(0,0,0,1);
+  }
+  delay(j);
+  led_ctrl(0,0,0,0); 
+  
+  led_deinit();
+}
 //! @brief Entry point for the bootloader.
 void main(void)
 {
-  
-#if 1
-    SIM_SCGC5 = SIM_SCGC5_PORTC_MASK;
-    //led1
-    GPIOC_PDDR |= GPIO_PDDR_PDD(1<<2);
-    GPIOC_PDOR |= GPIO_PDOR_PDO(1<<2);
-    PORTC_PCR2 |= PORT_PCR_MUX(1);
-    
-    //led2
-    GPIOC_PDDR |= GPIO_PDDR_PDD(1<<3);
-    GPIOC_PDOR |= GPIO_PDOR_PDO(1<<3);
-    PORTC_PCR3 |= PORT_PCR_MUX(1);
-
-#endif
+    entry_boot_indicate();
     bootloader_init();
     bootloader_run();
 
