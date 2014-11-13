@@ -1047,7 +1047,7 @@
         </option>
         <option>
           <name>OGLastSavedByProductVersion</name>
-          <state>6.70.3.6347</state>
+          <state>7.20.2.7418</state>
         </option>
         <option>
           <name>GeneralEnableMisra</name>
@@ -1276,6 +1276,7 @@
           <state>$PROJ_DIR$\..\..\..\..\src\usb_device\class</state>
           <state>$PROJ_DIR$\..\..\..\..\src\usb_device\hid</state>
           <state>$PROJ_DIR$\..\..\src</state>
+          <state>E:\Freescale Referrence Designs\20140905 Power Bank Project\Source Code Tree\PowerBank\tools\bootloader\powerbank bootloader\src\led</state>
         </option>
         <option>
           <name>CCStdIncCheck</name>
@@ -2179,6 +2180,15 @@
       </file>
       <file>
         <name>$PROJ_DIR$\..\..\..\..\src\include\fsl_platform_types.h</name>
+      </file>
+    </group>
+    <group>
+      <name>led</name>
+      <file>
+        <name>$PROJ_DIR$\..\..\..\..\src\led\led.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\..\..\..\..\src\led\led.h</name>
       </file>
     </group>
     <group>
